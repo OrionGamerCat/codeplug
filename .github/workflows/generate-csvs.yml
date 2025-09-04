@@ -64,13 +64,12 @@ jobs:
         echo "⚠️  Could not download memory-channels-processor from any source"
         echo "Creating fallback version that will skip repeater generation..."
         
-        cat << 'MOCK_SCRIPT' | sudo tee /usr/local/bin/memory-channels-processor
-#!/bin/bash
-echo "memory-channels-processor is not available in this environment"
-echo "Repeater generation will be skipped"
-echo "GPS data (POTA/SOTA) generation will continue normally"
-exit 1
-MOCK_SCRIPT
+        # Create fallback script
+        echo '#!/bin/bash' | sudo tee /usr/local/bin/memory-channels-processor > /dev/null
+        echo 'echo "memory-channels-processor is not available in this environment"' | sudo tee -a /usr/local/bin/memory-channels-processor > /dev/null
+        echo 'echo "Repeater generation will be skipped"' | sudo tee -a /usr/local/bin/memory-channels-processor > /dev/null
+        echo 'echo "GPS data (POTA/SOTA) generation will continue normally"' | sudo tee -a /usr/local/bin/memory-channels-processor > /dev/null
+        echo 'exit 1' | sudo tee -a /usr/local/bin/memory-channels-processor > /dev/null
         
         sudo chmod +x /usr/local/bin/memory-channels-processor
         echo "✅ Fallback memory-channels-processor created"
