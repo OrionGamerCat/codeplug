@@ -99,12 +99,14 @@ def fetch_pota_locations():
         
         locations_data = response.json()
         
-        # Filter for our target countries
+        # Filter for our target countries - need to look inside entities/locations
         target_locations = []
-        for location in locations_data:
-            descriptor = location.get('descriptor', '')
-            if descriptor.startswith(('AT-', 'SK-', 'SG-')):
-                target_locations.append(location)
+        for program in locations_data:
+            for entity in program.get('entities', []):
+                for location in entity.get('locations', []):
+                    descriptor = location.get('descriptor', '')
+                    if descriptor.startswith(('AT-', 'SK-', 'SG-')):
+                        target_locations.append(location)
         
         print(f"Found {len(target_locations)} POTA locations for target countries")
         return target_locations
