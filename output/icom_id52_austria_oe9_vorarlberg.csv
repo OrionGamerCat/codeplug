@@ -1,0 +1,6 @@
+Group No;Group Name;CH No;Name;SEL;Frequency;Dup;Offset;TS;Mode;SKIP;TONE;Repeater Tone;TSQL Frequency;DTCS Code;DTCS Polarity;DV SQL;DV CSQL Code;Your Call Sign;RPT1 Call Sign;RPT2 Call Sign
+43;Vorarlberg;00;Vorderaelpele;OFF;145,650000;DUP-;0,600000;12,5kHz;FM;OFF;TONE(T)/TSQL(R);85,4Hz;85,4Hz;23;BOTH N;;;;OE9XVI;
+43;Vorarlberg;01;Gebhartsberg;OFF;438,525000;DUP-;7,600000;12,5kHz;FM;OFF;TONE(T)/TSQL(R);85,4Hz;85,4Hz;23;BOTH N;;;;OE9XFV;
+43;Vorarlberg;02;Dornbirn Erlosen;OFF;438,587500;DUP-;7,600000;12,5kHz;FM;OFF;TONE(T)/TSQL(R);85,4Hz;85,4Hz;23;BOTH N;;;;OE9XXD;
+43;Vorarlberg;03;Karren;OFF;438,625000;DUP-;7,600000;12,5kHz;FM;OFF;TONE(T)/TSQL(R);85,4Hz;85,4Hz;23;BOTH N;;;;OE9XKV;
+43;Vorarlberg;04;Duenserberg;OFF;438,825000;DUP-;7,600000;12,5kHz;FM;OFF;TONE(T)/TSQL(R);85,4Hz;85,4Hz;23;BOTH N;;;;OE9XVV;

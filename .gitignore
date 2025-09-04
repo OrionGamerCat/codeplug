@@ -1,0 +1,41 @@
+# Cache and temporary files
+*.sqlite
+*_cache.sqlite
+memory_channels_processor_cache.sqlite
+
+# Large generated data files
+output/temp-files/
+*.zip
+*tmp*.csv
+
+# Example files (format templates - not needed in repo)
+examples/
+*example.csv
+
+# Backup files
+*.backup
+*.bak
+*~
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+*.log
+
+# Personal configuration
+.env
+config.local
+
+# Large CSV downloads (regenerate as needed)
+all_parks_ext.csv
+
+# Test and debug files
+test_*.csv
+debug_*.csv
+*_debug.csv

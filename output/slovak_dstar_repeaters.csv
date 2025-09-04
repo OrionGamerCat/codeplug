@@ -1,0 +1,6 @@
+Group No,Group Name,Name,Sub Name,Repeater Call Sign,Gateway Call Sign,Frequency,Dup,Offset,Mode,TONE,Repeater Tone,RPT1USE,Position,Latitude,Longitude,UTC Offset
+33,SK-DSTAR,Bratislava - Dúbravka,,OM0ODB,OM0ODB G,438.325,DUP-,7.6,DV,OFF,88.5Hz,YES,Approximate,48.1875,17.04167,+1:00
+33,SK-DSTAR,Kubínska hoľa,,OM0OAD,OM0OAD G,438.55,DUP-,7.6,DV,OFF,88.5Hz,YES,Approximate,49.27083,19.20833,+1:00
+33,SK-DSTAR,Žilina - mesto,,OM0OAA,OM0OAA G,438.625,DUP-,7.6,DV,OFF,88.5Hz,YES,Approximate,49.22917,18.70833,+1:00
+33,SK-DSTAR,Žilina - Hradisko,,OM0OAE,OM0OAE G,438.925,DUP-,7.6,DV,OFF,88.5Hz,YES,Approximate,49.22917,18.70833,+1:00
+33,SK-DSTAR,Lučenec,,OM0OUL,OM0OUL G,438.975,DUP-,7.6,DV,OFF,88.5Hz,YES,Approximate,48.35417,19.625,+1:00

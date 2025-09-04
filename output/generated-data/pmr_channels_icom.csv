@@ -1,0 +1,17 @@
+Group No,Group Name,Name,Sub Name,Repeater Call Sign,Gateway Call Sign,Frequency,Dup,Offset,Mode,TONE,Repeater Tone,RPT1USE,Position,Latitude,Longitude,UTC Offset
+80,PMR-Channels,Ch01,PMR,,,446.00625,,0.0,FM,OFF,88.5Hz,NO,Approximate,0,0,+1:00
+80,PMR-Channels,Ch02,PMR,,,446.01875,,0.0,FM,OFF,88.5Hz,NO,Approximate,0,0,+1:00
+80,PMR-Channels,Ch03,PMR,,,446.03125,,0.0,FM,OFF,88.5Hz,NO,Approximate,0,0,+1:00
+80,PMR-Channels,Ch04,PMR,,,446.04375,,0.0,FM,OFF,88.5Hz,NO,Approximate,0,0,+1:00
+80,PMR-Channels,Ch05,PMR,,,446.05625,,0.0,FM,OFF,88.5Hz,NO,Approximate,0,0,+1:00
+80,PMR-Channels,Ch06,PMR,,,446.06875,,0.0,FM,OFF,88.5Hz,NO,Approximate,0,0,+1:00
+80,PMR-Channels,Ch07,PMR,,,446.08125,,0.0,FM,OFF,88.5Hz,NO,Approximate,0,0,+1:00
+80,PMR-Channels,Ch08,PMR,,,446.09375,,0.0,FM,OFF,88.5Hz,NO,Approximate,0,0,+1:00
+80,PMR-Channels,Ch09,PMR,,,446.10625,,0.0,FM,OFF,88.5Hz,NO,Approximate,0,0,+1:00
+80,PMR-Channels,Ch10,PMR,,,446.11875,,0.0,FM,OFF,88.5Hz,NO,Approximate,0,0,+1:00
+80,PMR-Channels,Ch11,PMR,,,446.13125,,0.0,FM,OFF,88.5Hz,NO,Approximate,0,0,+1:00
+80,PMR-Channels,Ch12,PMR,,,446.14375,,0.0,FM,OFF,88.5Hz,NO,Approximate,0,0,+1:00
+80,PMR-Channels,Ch13,PMR,,,446.15625,,0.0,FM,OFF,88.5Hz,NO,Approximate,0,0,+1:00
+80,PMR-Channels,Ch14,PMR,,,446.16875,,0.0,FM,OFF,88.5Hz,NO,Approximate,0,0,+1:00
+80,PMR-Channels,Ch15,PMR,,,446.18125,,0.0,FM,OFF,88.5Hz,NO,Approximate,0,0,+1:00
+80,PMR-Channels,Ch16,PMR,,,446.19375,,0.0,FM,OFF,88.5Hz,NO,Approximate,0,0,+1:00

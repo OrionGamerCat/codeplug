@@ -1,0 +1,685 @@
+Group No,Group Name,Name,Sub Name,Repeater Call Sign,Gateway Call Sign,Frequency,Dup,Offset,Mode,TONE,Repeater Tone,RPT1USE,Position,Latitude,Longitude,UTC Offset
+75,POTA-AT,AT-0008,Neusiedel Mole W,,,,,,GPS,,,,Exact,47.9289,16.8348,+1:00
+75,POTA-AT,AT-0022,Geschriebenstein,,,,,,GPS,,,,Exact,47.3529,16.433,+1:00
+75,POTA-AT,AT-0030,Landseer Berge N,,,,,,GPS,,,,Exact,47.6278,16.3503,+1:00
+75,POTA-AT,AT-0034,Neusiedler See N,,,,,,GPS,,,,Exact,47.8576,16.7681,+1:00
+75,POTA-AT,AT-0040,Neusiedler See S,,,,,,GPS,,,,Exact,47.7707,16.7979,+1:00
+75,POTA-AT,AT-0056,Suedburgenlandis,,,,,,GPS,,,,Exact,47.0885,16.4155,+1:00
+75,POTA-AT,AT-0181,Feuchte Ebene - ,,,,,,GPS,,,,Exact,47.9017,16.4216,+1:00
+75,POTA-AT,AT-0182,Schlosspark Eise,,,,,,GPS,,,,Exact,47.848,16.5166,+1:00
+75,POTA-AT,AT-0183,Mattersburger Hu,,,,,,GPS,,,,Exact,47.7373,16.3607,+1:00
+75,POTA-AT,AT-0184,Parndorfer Platt,,,,,,GPS,,,,Exact,48.007,16.9031,+1:00
+75,POTA-AT,AT-0185,Naturpark Rosali,,,,,,GPS,,,,Exact,47.7166,16.4729,+1:00
+75,POTA-AT,AT-0186,Lafnitztal Natur,,,,,,GPS,,,,Exact,47.0265,16.1224,+1:00
+75,POTA-AT,AT-0200,NATURPARK RAAB-O,,,,,,GPS,,,,Exact,46.9281,16.1182,+1:00
+75,POTA-AT,AT-0201,Naturpark in der,,,,,,GPS,,,,Exact,47.0547,16.455,+1:00
+75,POTA-AT,AT-0202,Siegendorfer Pus,,,,,,GPS,,,,Exact,47.7723,16.5379,+1:00
+75,POTA-AT,AT-0207,Kurpark Bad Saue,,,,,,GPS,,,,Exact,47.7751,16.3261,+1:00
+75,POTA-AT,AT-0208,Kurpark Bad Tatz,,,,,,GPS,,,,Exact,47.3352,16.2291,+1:00
+75,POTA-AT,AT-0210,Stotzinger Heide,,,,,,GPS,,,,Exact,47.9078,16.5254,+1:00
+75,POTA-AT,AT-0214,Zylinderteich Pr,,,,,,GPS,,,,Exact,47.8879,16.4221,+1:00
+75,POTA-AT,AT-0215,Bubanj Protected,,,,,,GPS,,,,Exact,47.8895,16.4231,+1:00
+75,POTA-AT,AT-0220,Fronwiesen und K,,,,,,GPS,,,,Exact,47.8384,16.5679,+1:00
+75,POTA-AT,AT-0221,Goldberg Protect,,,,,,GPS,,,,Exact,47.8404,16.6414,+1:00
+75,POTA-AT,AT-0222,Weisses Kreuz Pr,,,,,,GPS,,,,Exact,47.8462,16.4837,+1:00
+75,POTA-AT,AT-0223,Naturschutzgebie,,,,,,GPS,,,,Exact,47.9399,16.7132,+1:00
+75,POTA-AT,AT-0224,Naturpark Neusie,,,,,,GPS,,,,Exact,47.9476,16.6888,+1:00
+75,POTA-AT,AT-0227,Forchtenstein Ca,,,,,,GPS,,,,Exact,47.7098,16.3317,+1:00
+75,POTA-AT,AT-0228,Rosalienkapelle ,,,,,,GPS,,,,Exact,47.6976,16.3068,+1:00
+75,POTA-AT,AT-0230,Burgruine Hornst,,,,,,GPS,,,,Exact,47.8762,16.4543,+1:00
+75,POTA-AT,AT-0231,Roemersteinbruch,,,,,,GPS,,,,Exact,47.803,16.6349,+1:00
+75,POTA-AT,AT-0232,Seebad Rust Recr,,,,,,GPS,,,,Exact,47.8012,16.6948,+1:00
+75,POTA-AT,AT-0233,Tor zur Freiheit,,,,,,GPS,,,,Exact,47.7572,16.6223,+1:00
+75,POTA-AT,AT-0240,Neufeldersee Rec,,,,,,GPS,,,,Exact,47.8686,16.388,+1:00
+75,POTA-AT,AT-0241,Hackelsberg Prot,,,,,,GPS,,,,Exact,47.954,16.774,+1:00
+75,POTA-AT,AT-0242,Jungerberg Prote,,,,,,GPS,,,,Exact,47.9605,16.7787,+1:00
+75,POTA-AT,AT-0246,Noplerberg-Biri ,,,,,,GPS,,,,Exact,47.5281,16.4652,+1:00
+75,POTA-AT,AT-0247,Naherholungsgebi,,,,,,GPS,,,,Exact,47.3061,16.1715,+1:00
+75,POTA-AT,AT-0255,Batthyanyfeld Pr,,,,,,GPS,,,,Exact,48.0089,16.7423,+1:00
+75,POTA-AT,AT-0259,Zurndorfer Eiche,,,,,,GPS,,,,Exact,47.9573,17.0054,+1:00
+75,POTA-AT,AT-0260,Pfarrwiesen Illm,,,,,,GPS,,,,Exact,47.7631,16.817,+1:00
+75,POTA-AT,AT-0261,Bridge at Andau ,,,,,,GPS,,,,Exact,47.707,17.0769,+1:00
+75,POTA-AT,AT-0262,Frauenwiesen Pro,,,,,,GPS,,,,Exact,47.922,16.5327,+1:00
+75,POTA-AT,AT-0263,Rochuskapelle un,,,,,,GPS,,,,Exact,47.8616,16.5545,+1:00
+75,POTA-AT,AT-0264,Hoelzlstein Prot,,,,,,GPS,,,,Exact,47.8469,16.6544,+1:00
+75,POTA-AT,AT-0272,Friedenspark Hir,,,,,,GPS,,,,Exact,47.7862,16.4513,+1:00
+75,POTA-AT,AT-0281,East Austrian bo,,,,,,GPS,,,,Exact,48.1357,16.6334,+1:00
+75,POTA-AT,AT-0282,European long-di,,,,,,GPS,,,,Exact,48.0737,16.1617,+1:00
+75,POTA-AT,AT-0283,Lower Austrian s,,,,,,GPS,,,,Exact,48.303,15.1015,+1:00
+75,POTA-AT,AT-0284,Burgenland hikin,,,,,,GPS,,,,Exact,47.5033,16.3601,+1:00
+75,POTA-AT,AT-0286,Jubilaeumswarte ,,,,,,GPS,,,,Exact,47.8545,16.5052,+1:00
+75,POTA-AT,AT-0287,Pfefferbuechsel ,,,,,,GPS,,,,Exact,47.9289,16.4585,+1:00
+75,POTA-AT,AT-0288,Teichwiesen Prot,,,,,,GPS,,,,Exact,47.7164,16.457,+1:00
+75,POTA-AT,AT-0289,Rohrbacher (Marz,,,,,,GPS,,,,Exact,47.7167,16.4507,+1:00
+75,POTA-AT,AT-0291,Zentralalpenweg ,,,,,,GPS,,,,Exact,47.2714,14.7821,+1:00
+75,POTA-AT,AT-0296,Burgenlaendische,,,,,,GPS,,,,Exact,47.701,16.2912,+1:00
+75,POTA-AT,AT-0299,St. Mary’s Trail,,,,,,GPS,,,,Exact,47.737,16.3975,+1:00
+75,POTA-AT,AT-0300,Rosalia circular,,,,,,GPS,,,,Exact,47.7413,16.2964,+1:00
+75,POTA-AT,AT-0301,Wiener Alpenboge,,,,,,GPS,,,,Exact,47.5598,15.9054,+1:00
+75,POTA-AT,AT-0303,Fronwiesen und J,,,,,,GPS,,,,Exact,47.9286,16.4906,+1:00
+75,POTA-AT,AT-0305,Sonnenbergwarte ,,,,,,GPS,,,,Exact,47.8761,16.4746,+1:00
+75,POTA-AT,AT-0307,Erlebnisarena Ne,,,,,,GPS,,,,Exact,47.867,16.374,+1:00
+75,POTA-AT,AT-0311,Landschaftsschut,,,,,,GPS,,,,Exact,47.3766,16.3586,+1:00
+75,POTA-AT,AT-0312,Galgenberg Rechn,,,,,,GPS,,,,Exact,47.2987,16.4182,+1:00
+75,POTA-AT,AT-0313,Waldteich Deutsc,,,,,,GPS,,,,Exact,47.5636,16.6281,+1:00
+75,POTA-AT,AT-0347,Siegendorf Auffa,,,,,,GPS,,,,Exact,47.7751,16.5412,+1:00
+75,POTA-AT,AT-0016,Dobratsch Nature,,,,,,GPS,,,,Exact,46.6036,13.6703,+1:00
+75,POTA-AT,AT-0037,Weissensee Natur,,,,,,GPS,,,,Exact,46.7031,13.3628,+1:00
+75,POTA-AT,AT-0039,Hohe Tauern Nati,,,,,,GPS,,,,Exact,47.0667,12.6667,+1:00
+75,POTA-AT,AT-0091,Goertschacher Mo,,,,,,GPS,,,,Exact,46.6086,13.4881,+1:00
+75,POTA-AT,AT-0092,Auenmoos Protect,,,,,,GPS,,,,Exact,47.0356,14.1469,+1:00
+75,POTA-AT,AT-0093,Bretterich Natio,,,,,,GPS,,,,Exact,46.9535,13.0207,+1:00
+75,POTA-AT,AT-0094,Drobollacher Moo,,,,,,GPS,,,,Exact,46.5812,13.9106,+1:00
+75,POTA-AT,AT-0095,Egelsee National,,,,,,GPS,,,,Exact,46.7842,13.5606,+1:00
+75,POTA-AT,AT-0096,Kirchbachgraben ,,,,,,GPS,,,,Exact,46.6465,13.1884,+1:00
+75,POTA-AT,AT-0097,Gurina Landscape,,,,,,GPS,,,,Exact,46.667,13.0853,+1:00
+75,POTA-AT,AT-0098,Finkensteiner Mo,,,,,,GPS,,,,Exact,46.5678,13.8889,+1:00
+75,POTA-AT,AT-0099,Flachwasserbioto,,,,,,GPS,,,,Exact,46.6425,14.5879,+1:00
+75,POTA-AT,AT-0100,Flachwasserbioto,,,,,,GPS,,,,Exact,46.5937,13.9608,+1:00
+75,POTA-AT,AT-0101,Flattnitzbach-Ho,,,,,,GPS,,,,Exact,46.9658,14.0181,+1:00
+75,POTA-AT,AT-0102,Goesselsdorfer S,,,,,,GPS,,,,Exact,46.5587,14.618,+1:00
+75,POTA-AT,AT-0103,Vogelschutzgebie,,,,,,GPS,,,,Exact,46.7958,14.8433,+1:00
+75,POTA-AT,AT-0104,Gruensee Nationa,,,,,,GPS,,,,Exact,46.6222,13.8925,+1:00
+75,POTA-AT,AT-0105,Guntschacher Au ,,,,,,GPS,,,,Exact,46.5474,14.3436,+1:00
+75,POTA-AT,AT-0106,Gurkursprung Nat,,,,,,GPS,,,,Exact,46.9103,13.9469,+1:00
+75,POTA-AT,AT-0107,Hallegger Teiche,,,,,,GPS,,,,Exact,46.6433,14.2442,+1:00
+75,POTA-AT,AT-0108,Hoeflein-Moor Na,,,,,,GPS,,,,Exact,46.5765,14.3959,+1:00
+75,POTA-AT,AT-0109,Hoerfeld Nationa,,,,,,GPS,,,,Exact,47.0142,14.5128,+1:00
+75,POTA-AT,AT-0110,Innere Wimitz Na,,,,,,GPS,,,,Exact,46.8218,14.2305,+1:00
+75,POTA-AT,AT-0111,Inneres Bodental,,,,,,GPS,,,,Exact,46.454,14.2094,+1:00
+75,POTA-AT,AT-0112,Schuett - Grasch,,,,,,GPS,,,,Exact,46.5769,13.6905,+1:00
+75,POTA-AT,AT-0113,Ossiacher Tauern,,,,,,GPS,,,,Exact,46.6643,14.0055,+1:00
+75,POTA-AT,AT-0114,Tiffen Natura 20,,,,,,GPS,,,,Exact,46.7055,14.0519,+1:00
+75,POTA-AT,AT-0115,Vellacher Kotsch,,,,,,GPS,,,,Exact,46.3899,14.5706,+1:00
+75,POTA-AT,AT-0116,Troegerner Klamm,,,,,,GPS,,,,Exact,46.4566,14.5006,+1:00
+75,POTA-AT,AT-0117,Kleinobir Natura,,,,,,GPS,,,,Exact,46.5163,14.4845,+1:00
+75,POTA-AT,AT-0118,Inneres Poellata,,,,,,GPS,,,,Exact,47.0677,13.4572,+1:00
+75,POTA-AT,AT-0119,Aeusseres Poella,,,,,,GPS,,,,Exact,47.0434,13.5498,+1:00
+75,POTA-AT,AT-0120,Jammernspitz Nat,,,,,,GPS,,,,Exact,46.6746,13.9669,+1:00
+75,POTA-AT,AT-0121,Bodensdorf Natio,,,,,,GPS,,,,Exact,46.6759,13.9639,+1:00
+75,POTA-AT,AT-0122,Tiebelmuendung N,,,,,,GPS,,,,Exact,46.6905,14.0143,+1:00
+75,POTA-AT,AT-0123,Bleistaetter Moo,,,,,,GPS,,,,Exact,46.6925,14.0167,+1:00
+75,POTA-AT,AT-0124,Ossiacher Tauern,,,,,,GPS,,,,Exact,46.6827,14.0191,+1:00
+75,POTA-AT,AT-0125,Kronhofgraben Na,,,,,,GPS,,,,Exact,46.6242,13.044,+1:00
+75,POTA-AT,AT-0126,Ruine Landskron ,,,,,,GPS,,,,Exact,46.649,13.904,+1:00
+75,POTA-AT,AT-0127,Ossiacher See - ,,,,,,GPS,,,,Exact,46.6527,13.8927,+1:00
+75,POTA-AT,AT-0128,Ossiacher See - ,,,,,,GPS,,,,Exact,46.6532,13.8953,+1:00
+75,POTA-AT,AT-0129,Moore am Ossiach,,,,,,GPS,,,,Exact,46.6403,14.008,+1:00
+75,POTA-AT,AT-0131,Kleinfragant Nat,,,,,,GPS,,,,Exact,46.9833,13.0146,+1:00
+75,POTA-AT,AT-0132,Wurten National ,,,,,,GPS,,,,Exact,47.0186,13.0499,+1:00
+75,POTA-AT,AT-0133,Meerspitz am Oss,,,,,,GPS,,,,Exact,46.6718,13.9757,+1:00
+75,POTA-AT,AT-0134,Mussen National ,,,,,,GPS,,,,Exact,46.7122,12.9231,+1:00
+75,POTA-AT,AT-0135,Sablatnigmoor be,,,,,,GPS,,,,Exact,46.5747,14.6058,+1:00
+75,POTA-AT,AT-0136,Spintik-Teiche N,,,,,,GPS,,,,Exact,46.5983,14.2131,+1:00
+75,POTA-AT,AT-0137,Nockberge Natura,,,,,,GPS,,,,Exact,46.8833,13.75,+1:00
+75,POTA-AT,AT-0138,Tuerkenmoos Nati,,,,,,GPS,,,,Exact,46.8822,14.1008,+1:00
+75,POTA-AT,AT-0139,Stappitzer See N,,,,,,GPS,,,,Exact,47.0181,13.195,+1:00
+75,POTA-AT,AT-0140,Vogelschutzgebie,,,,,,GPS,,,,Exact,46.6301,14.5693,+1:00
+75,POTA-AT,AT-0141,Wolayersee und U,,,,,,GPS,,,,Exact,46.6111,12.8692,+1:00
+75,POTA-AT,AT-0142,Grosser und Klei,,,,,,GPS,,,,Exact,46.5897,13.2861,+1:00
+75,POTA-AT,AT-0143,Grossedlinger Te,,,,,,GPS,,,,Exact,46.7967,14.8436,+1:00
+75,POTA-AT,AT-0144,Obere Drau Natur,,,,,,GPS,,,,Exact,46.75,13.2333,+1:00
+75,POTA-AT,AT-0145,Hochmoor bei St.,,,,,,GPS,,,,Exact,46.8639,13.9194,+1:00
+75,POTA-AT,AT-0147,Gail im Lesachta,,,,,,GPS,,,,Exact,46.6792,12.9333,+1:00
+75,POTA-AT,AT-0148,Gut Walterskirch,,,,,,GPS,,,,Exact,46.6194,14.1972,+1:00
+75,POTA-AT,AT-0149,Ratschitschacher,,,,,,GPS,,,,Exact,46.6428,14.705,+1:00
+75,POTA-AT,AT-0150,Moeserner Moor N,,,,,,GPS,,,,Exact,46.705,13.25,+1:00
+75,POTA-AT,AT-0151,Untere Lavant Na,,,,,,GPS,,,,Exact,46.7044,14.8858,+1:00
+75,POTA-AT,AT-0155,Pressegger See L,,,,,,GPS,,,,Exact,46.6205,13.441,+1:00
+75,POTA-AT,AT-0156,Turnersee Natura,,,,,,GPS,,,,Exact,46.5833,14.575,+1:00
+75,POTA-AT,AT-0157,Reifnitzbach Nat,,,,,,GPS,,,,Exact,46.6042,14.175,+1:00
+75,POTA-AT,AT-0158,Fronwiesen Natur,,,,,,GPS,,,,Exact,46.5267,14.1083,+1:00
+75,POTA-AT,AT-0159,Kalk-Tuffquellen,,,,,,GPS,,,,Exact,46.6264,14.6667,+1:00
+75,POTA-AT,AT-0160,Lendspitz-Maiern,,,,,,GPS,,,,Exact,46.6111,14.2597,+1:00
+75,POTA-AT,AT-0170,Mannsberg-Boden ,,,,,,GPS,,,,Exact,46.7972,14.5042,+1:00
+75,POTA-AT,AT-0171,Hainsche Moor Na,,,,,,GPS,,,,Exact,46.5514,14.2017,+1:00
+75,POTA-AT,AT-0172,Mittagskogel - K,,,,,,GPS,,,,Exact,46.512,13.9692,+1:00
+75,POTA-AT,AT-0173,Europapark Klage,,,,,,GPS,,,,Exact,46.6207,14.2608,+1:00
+75,POTA-AT,AT-0291,Zentralalpenweg ,,,,,,GPS,,,,Exact,47.2714,14.7821,+1:00
+75,POTA-AT,AT-0005,Lainzer Tiergart,,,,,,GPS,,,,Exact,48.1845,16.2191,+1:00
+75,POTA-AT,AT-0006,Giesshuebel Recr,,,,,,GPS,,,,Exact,48.1021,16.2236,+1:00
+75,POTA-AT,AT-0007,Schlosspark Laxe,,,,,,GPS,,,,Exact,48.0618,16.363,+1:00
+75,POTA-AT,AT-0010,Blockheide-Gmund,,,,,,GPS,,,,Exact,48.7798,14.9958,+1:00
+75,POTA-AT,AT-0014,Buchenberg Natur,,,,,,GPS,,,,Exact,47.9467,14.776,+1:00
+75,POTA-AT,AT-0015,Dobersberg Natur,,,,,,GPS,,,,Exact,48.9067,15.3291,+1:00
+75,POTA-AT,AT-0017,Eichenhain Natur,,,,,,GPS,,,,Exact,48.2928,16.2398,+1:00
+75,POTA-AT,AT-0018,Eisenwurzen Natu,,,,,,GPS,,,,Exact,47.7482,14.7766,+1:00
+75,POTA-AT,AT-0019,Falkenstein Natu,,,,,,GPS,,,,Exact,47.8157,15.7065,+1:00
+75,POTA-AT,AT-0020,Fohrenberge Natu,,,,,,GPS,,,,Exact,48.0647,16.248,+1:00
+75,POTA-AT,AT-0021,Geras Nature Res,,,,,,GPS,,,,Exact,48.7997,15.6588,+1:00
+75,POTA-AT,AT-0023,Heidenreichstein,,,,,,GPS,,,,Exact,48.8528,15.1446,+1:00
+75,POTA-AT,AT-0024,Hochmoor Schrems,,,,,,GPS,,,,Exact,48.7964,15.1001,+1:00
+75,POTA-AT,AT-0025,Hohe Wand Nature,,,,,,GPS,,,,Exact,47.8347,16.0471,+1:00
+75,POTA-AT,AT-0026,Jauerling-Wachau,,,,,,GPS,,,,Exact,48.3077,15.3298,+1:00
+75,POTA-AT,AT-0027,Kamptal-Schoenbe,,,,,,GPS,,,,Exact,48.5285,15.6857,+1:00
+75,POTA-AT,AT-0031,Leiserberge Natu,,,,,,GPS,,,,Exact,48.5589,16.3911,+1:00
+75,POTA-AT,AT-0032,Mannersdorf-Wust,,,,,,GPS,,,,Exact,47.9545,16.5999,+1:00
+75,POTA-AT,AT-0036,Sparbach Nature ,,,,,,GPS,,,,Exact,48.0824,16.1861,+1:00
+75,POTA-AT,AT-0041,Donau Auen Natio,,,,,,GPS,,,,Exact,48.1348,16.6955,+1:00
+75,POTA-AT,AT-0043,Thayatal Nationa,,,,,,GPS,,,,Exact,48.8419,15.8887,+1:00
+75,POTA-AT,AT-0057,Untere Marchauen,,,,,,GPS,,,,Exact,48.3206,16.8862,+1:00
+75,POTA-AT,AT-0058,Johannisbachklam,,,,,,GPS,,,,Exact,47.7829,15.9716,+1:00
+75,POTA-AT,AT-0059,Wachau Und Umgeb,,,,,,GPS,,,,Exact,48.3617,15.419,+1:00
+75,POTA-AT,AT-0060,Donau-March-Thay,,,,,,GPS,,,,Exact,48.1301,16.8,+1:00
+75,POTA-AT,AT-0061,Ybbsfeld-Forsthe,,,,,,GPS,,,,Exact,48.082,14.7816,+1:00
+75,POTA-AT,AT-0062,Gamsstein-Voralp,,,,,,GPS,,,,Exact,47.7593,14.806,+1:00
+75,POTA-AT,AT-0085,Leithagebirge Na,,,,,,GPS,,,,Exact,47.9655,16.6344,+1:00
+75,POTA-AT,AT-0086,Groszpertholz Na,,,,,,GPS,,,,Exact,48.6274,14.819,+1:00
+75,POTA-AT,AT-0087,Seebenstein Natu,,,,,,GPS,,,,Exact,47.6877,16.1519,+1:00
+75,POTA-AT,AT-0175,Akademiepark Nat,,,,,,GPS,,,,Exact,47.8024,16.2492,+1:00
+75,POTA-AT,AT-0176,Wienerwald Biosp,,,,,,GPS,,,,Exact,48.1377,16.09,+1:00
+75,POTA-AT,AT-0177,Pottendorfer Sch,,,,,,GPS,,,,Exact,47.9124,16.3822,+1:00
+75,POTA-AT,AT-0178,Schlosspark - Ko,,,,,,GPS,,,,Exact,47.948,16.2273,+1:00
+75,POTA-AT,AT-0179,Remise Bird Sanc,,,,,,GPS,,,,Exact,47.9692,16.2295,+1:00
+75,POTA-AT,AT-0180,Naturpark Sierni,,,,,,GPS,,,,Exact,47.7376,15.9777,+1:00
+75,POTA-AT,AT-0181,Feuchte Ebene - ,,,,,,GPS,,,,Exact,47.9017,16.4216,+1:00
+75,POTA-AT,AT-0190,Donauinsel Park,,,,,,GPS,,,,Exact,48.2512,16.3838,+1:00
+75,POTA-AT,AT-0191,Naturpark Oetsch,,,,,,GPS,,,,Exact,47.8615,15.2026,+1:00
+75,POTA-AT,AT-0192,Naturpark Purker,,,,,,GPS,,,,Exact,48.1995,16.1725,+1:00
+75,POTA-AT,AT-0193,Capitularegarten,,,,,,GPS,,,,Exact,47.965,16.2029,+1:00
+75,POTA-AT,AT-0194,Kurpark Bad Voes,,,,,,GPS,,,,Exact,47.9683,16.2056,+1:00
+75,POTA-AT,AT-0195,Myrafaelle Park,,,,,,GPS,,,,Exact,47.9137,15.9367,+1:00
+75,POTA-AT,AT-0196,Naturschutzgebie,,,,,,GPS,,,,Exact,48.2882,16.782,+1:00
+75,POTA-AT,AT-0197,Weikendorfer Rem,,,,,,GPS,,,,Exact,48.301,16.7576,+1:00
+75,POTA-AT,AT-0198,Tullnerfelder Do,,,,,,GPS,,,,Exact,48.35,16.0065,+1:00
+75,POTA-AT,AT-0199,Steinfeld Natura,,,,,,GPS,,,,Exact,47.8987,16.3315,+1:00
+75,POTA-AT,AT-0205,Stadtpark Neunki,,,,,,GPS,,,,Exact,47.7202,16.0733,+1:00
+75,POTA-AT,AT-0206,Wasserpark Tulln,,,,,,GPS,,,,Exact,48.3294,16.039,+1:00
+75,POTA-AT,AT-0209,Stausee Ottenste,,,,,,GPS,,,,Exact,48.5928,15.3229,+1:00
+75,POTA-AT,AT-0211,St. Poeltner See,,,,,,GPS,,,,Exact,48.2246,15.6518,+1:00
+75,POTA-AT,AT-0212,Stadtwald (Kaise,,,,,,GPS,,,,Exact,48.2044,15.6114,+1:00
+75,POTA-AT,AT-0216,Bisamberg Protec,,,,,,GPS,,,,Exact,48.3221,16.3779,+1:00
+75,POTA-AT,AT-0217,Enzesfeld-Lindab,,,,,,GPS,,,,Exact,47.9112,16.1448,+1:00
+75,POTA-AT,AT-0218,Strudengau und U,,,,,,GPS,,,,Exact,48.2286,14.8986,+1:00
+75,POTA-AT,AT-0219,Goettweigerberg ,,,,,,GPS,,,,Exact,48.3675,15.6142,+1:00
+75,POTA-AT,AT-0225,Kurpark Baden Re,,,,,,GPS,,,,Exact,48.0129,16.2313,+1:00
+75,POTA-AT,AT-0226,Kuerassier - Eis,,,,,,GPS,,,,Exact,47.8404,16.1529,+1:00
+75,POTA-AT,AT-0229,Schoenauer Teich,,,,,,GPS,,,,Exact,47.9226,16.2569,+1:00
+75,POTA-AT,AT-0234,Schlosshof Histo,,,,,,GPS,,,,Exact,48.2146,16.9357,+1:00
+75,POTA-AT,AT-0235,Pischelsdorfer W,,,,,,GPS,,,,Exact,48.0268,16.5224,+1:00
+75,POTA-AT,AT-0236,Naturschutzgebie,,,,,,GPS,,,,Exact,48.0017,16.5225,+1:00
+75,POTA-AT,AT-0237,Aupark Klosterne,,,,,,GPS,,,,Exact,48.3073,16.3331,+1:00
+75,POTA-AT,AT-0238,Landschaftspark ,,,,,,GPS,,,,Exact,48.3476,16.7329,+1:00
+75,POTA-AT,AT-0239,Naturdenkmal Fis,,,,,,GPS,,,,Exact,47.8769,16.3264,+1:00
+75,POTA-AT,AT-0243,Naturgebilde Nie,,,,,,GPS,,,,Exact,47.8934,16.0986,+1:00
+75,POTA-AT,AT-0244,Theaterpark Bern,,,,,,GPS,,,,Exact,47.9449,16.1097,+1:00
+75,POTA-AT,AT-0245,Wilhelm Kress Pa,,,,,,GPS,,,,Exact,48.1835,16.122,+1:00
+75,POTA-AT,AT-0248,Au-Erlebnisweg K,,,,,,GPS,,,,Exact,48.3069,16.3327,+1:00
+75,POTA-AT,AT-0249,Aubad Tulln Recr,,,,,,GPS,,,,Exact,48.3318,16.077,+1:00
+75,POTA-AT,AT-0250,Northeastern edg,,,,,,GPS,,,,Exact,47.8444,15.9947,+1:00
+75,POTA-AT,AT-0251,Heinrich Wohlmut,,,,,,GPS,,,,Exact,47.8687,16.0547,+1:00
+75,POTA-AT,AT-0252,Erholungswald Gl,,,,,,GPS,,,,Exact,47.6714,15.9399,+1:00
+75,POTA-AT,AT-0253,Naturdenkmal Pet,,,,,,GPS,,,,Exact,47.7178,16.0507,+1:00
+75,POTA-AT,AT-0254,Harrachpark Park,,,,,,GPS,,,,Exact,48.0265,16.7908,+1:00
+75,POTA-AT,AT-0256,Roman City of Ca,,,,,,GPS,,,,Exact,48.1126,16.8592,+1:00
+75,POTA-AT,AT-0257,Roman Military T,,,,,,GPS,,,,Exact,48.1266,16.8926,+1:00
+75,POTA-AT,AT-0258,Kurpark Bad Deut,,,,,,GPS,,,,Exact,48.1399,16.902,+1:00
+75,POTA-AT,AT-0265,Pecherlehrpfad H,,,,,,GPS,,,,Exact,47.8888,16.1104,+1:00
+75,POTA-AT,AT-0266,Westliches Weinv,,,,,,GPS,,,,Exact,48.7213,15.9422,+1:00
+75,POTA-AT,AT-0267,Weinviertler Kli,,,,,,GPS,,,,Exact,48.5709,16.4223,+1:00
+75,POTA-AT,AT-0268,Landschaftsschut,,,,,,GPS,,,,Exact,48.7235,16.5774,+1:00
+75,POTA-AT,AT-0269,Burgruine Falken,,,,,,GPS,,,,Exact,48.725,16.5786,+1:00
+75,POTA-AT,AT-0270,Walter Vogelweid,,,,,,GPS,,,,Exact,47.8251,16.2462,+1:00
+75,POTA-AT,AT-0271,Obstgarten Park,,,,,,GPS,,,,Exact,47.7972,16.2304,+1:00
+75,POTA-AT,AT-0278,Kalkschotterstep,,,,,,GPS,,,,Exact,47.8553,16.2871,+1:00
+75,POTA-AT,AT-0279,Hohe Wand - Duer,,,,,,GPS,,,,Exact,47.835,15.9708,+1:00
+75,POTA-AT,AT-0280,Generationenpark,,,,,,GPS,,,,Exact,47.7328,16.2114,+1:00
+75,POTA-AT,AT-0281,East Austrian bo,,,,,,GPS,,,,Exact,48.1357,16.6334,+1:00
+75,POTA-AT,AT-0282,European long-di,,,,,,GPS,,,,Exact,48.0737,16.1617,+1:00
+75,POTA-AT,AT-0283,Lower Austrian s,,,,,,GPS,,,,Exact,48.303,15.1015,+1:00
+75,POTA-AT,AT-0285,Schmuckerau Park,,,,,,GPS,,,,Exact,47.8202,16.2288,+1:00
+75,POTA-AT,AT-0290,Stadtpark Wiener,,,,,,GPS,,,,Exact,47.8095,16.2396,+1:00
+75,POTA-AT,AT-0291,Zentralalpenweg ,,,,,,GPS,,,,Exact,47.2714,14.7821,+1:00
+75,POTA-AT,AT-0292,Jubilaeumswarte ,,,,,,GPS,,,,Exact,47.9387,16.1121,+1:00
+75,POTA-AT,AT-0293,Schlosspark Trib,,,,,,GPS,,,,Exact,48.0052,16.2762,+1:00
+75,POTA-AT,AT-0294,Eichkogel Protec,,,,,,GPS,,,,Exact,48.0636,16.292,+1:00
+75,POTA-AT,AT-0295,Glaslauterriegel,,,,,,GPS,,,,Exact,48.0335,16.2536,+1:00
+75,POTA-AT,AT-0296,Burgenlaendische,,,,,,GPS,,,,Exact,47.701,16.2912,+1:00
+75,POTA-AT,AT-0298,Kalkklippe Oberp,,,,,,GPS,,,,Exact,47.8719,16.1062,+1:00
+75,POTA-AT,AT-0299,St. Mary’s Trail,,,,,,GPS,,,,Exact,47.737,16.3975,+1:00
+75,POTA-AT,AT-0300,Rosalia circular,,,,,,GPS,,,,Exact,47.7413,16.2964,+1:00
+75,POTA-AT,AT-0301,Wiener Alpenboge,,,,,,GPS,,,,Exact,47.5598,15.9054,+1:00
+75,POTA-AT,AT-0302,Mitterschoepfl-H,,,,,,GPS,,,,Exact,48.0863,15.9316,+1:00
+75,POTA-AT,AT-0304,Weinberg-Hoeherb,,,,,,GPS,,,,Exact,48.0596,16.0531,+1:00
+75,POTA-AT,AT-0306,Basilika Sonntag,,,,,,GPS,,,,Exact,47.9965,14.7622,+1:00
+75,POTA-AT,AT-0307,Erlebnisarena Ne,,,,,,GPS,,,,Exact,47.867,16.374,+1:00
+75,POTA-AT,AT-0310,Generationenpark,,,,,,GPS,,,,Exact,47.9269,16.2246,+1:00
+75,POTA-AT,AT-0314,Europaschutzgebi,,,,,,GPS,,,,Exact,48.6916,15.3547,+1:00
+75,POTA-AT,AT-0317,Keltensiedlung a,,,,,,GPS,,,,Exact,48.6587,15.9667,+1:00
+75,POTA-AT,AT-0345,Stadtpark Traisk,,,,,,GPS,,,,Exact,48.013,16.2991,+1:00
+75,POTA-AT,AT-0346,Wiener Huette Re,,,,,,GPS,,,,Exact,48.1275,16.2081,+1:00
+75,POTA-AT,AT-0009,Waldhausen Klost,,,,,,GPS,,,,Exact,48.2811,14.9535,+1:00
+75,POTA-AT,AT-0012,Attersee-Traunse,,,,,,GPS,,,,Exact,47.8794,13.6445,+1:00
+75,POTA-AT,AT-0042,Kalkalpen Nation,,,,,,GPS,,,,Exact,47.79,14.3736,+1:00
+75,POTA-AT,AT-0045,Botanischer Gart,,,,,,GPS,,,,Exact,48.2967,14.2759,+1:00
+75,POTA-AT,AT-0089,Urfahrwaend Natu,,,,,,GPS,,,,Exact,48.3112,14.2541,+1:00
+75,POTA-AT,AT-0090,Linzer Tiergarte,,,,,,GPS,,,,Exact,48.3104,14.2634,+1:00
+75,POTA-AT,AT-0282,European long-di,,,,,,GPS,,,,Exact,48.0737,16.1617,+1:00
+75,POTA-AT,AT-0318,Nordmoor am Grab,,,,,,GPS,,,,Exact,47.9984,13.104,+1:00
+75,POTA-AT,AT-0319,Spiessmojer Natu,,,,,,GPS,,,,Exact,48.0959,13.2938,+1:00
+75,POTA-AT,AT-0320,Teile des Heherm,,,,,,GPS,,,,Exact,48.0584,12.8995,+1:00
+75,POTA-AT,AT-0321,Pfeiferanger Nat,,,,,,GPS,,,,Exact,48.053,12.9619,+1:00
+75,POTA-AT,AT-0322,Nordmoor am Matt,,,,,,GPS,,,,Exact,47.9939,13.1512,+1:00
+75,POTA-AT,AT-0323,Jackenmoos auf d,,,,,,GPS,,,,Exact,48.0786,12.9533,+1:00
+75,POTA-AT,AT-0324,Feuchtgebiet Tei,,,,,,GPS,,,,Exact,48.0327,13.2114,+1:00
+75,POTA-AT,AT-0325,Ettenau Nature C,,,,,,GPS,,,,Exact,48.0741,12.7643,+1:00
+75,POTA-AT,AT-0326,Ettenau II Natur,,,,,,GPS,,,,Exact,48.0926,12.7568,+1:00
+75,POTA-AT,AT-0327,Buchenwald Ransh,,,,,,GPS,,,,Exact,48.2349,13.0248,+1:00
+75,POTA-AT,AT-0338,Unterer Inn Nati,,,,,,GPS,,,,Exact,48.3006,13.285,+1:00
+75,POTA-AT,AT-0339,Seeleitensee (In,,,,,,GPS,,,,Exact,48.0589,12.9675,+1:00
+75,POTA-AT,AT-0340,Imsee National C,,,,,,GPS,,,,Exact,48.0222,13.1362,+1:00
+75,POTA-AT,AT-0342,Hoellerersee Nat,,,,,,GPS,,,,Exact,48.0268,12.8901,+1:00
+75,POTA-AT,AT-0343,Heratinger See N,,,,,,GPS,,,,Exact,48.0708,12.952,+1:00
+75,POTA-AT,AT-0344,Frankinger Moos ,,,,,,GPS,,,,Exact,48.0508,12.9403,+1:00
+75,POTA-AT,AT-0013,Buchberg Nature ,,,,,,GPS,,,,Exact,47.9502,13.1061,+1:00
+75,POTA-AT,AT-0039,Hohe Tauern Nati,,,,,,GPS,,,,Exact,47.0667,12.6667,+1:00
+75,POTA-AT,AT-0053,Huettschlager Ta,,,,,,GPS,,,,Exact,47.1402,13.2902,+1:00
+75,POTA-AT,AT-0054,Obertauern Natur,,,,,,GPS,,,,Exact,47.2478,13.5601,+1:00
+75,POTA-AT,AT-0055,Schafberg-Salzka,,,,,,GPS,,,,Exact,47.7999,13.4642,+1:00
+75,POTA-AT,AT-0076,Trumer Seen Natu,,,,,,GPS,,,,Exact,47.9794,13.1045,+1:00
+75,POTA-AT,AT-0077,Wallersee Nature,,,,,,GPS,,,,Exact,47.91,13.1622,+1:00
+75,POTA-AT,AT-0082,Fuschlsee Nature,,,,,,GPS,,,,Exact,47.8038,13.2758,+1:00
+75,POTA-AT,AT-0083,Tappenkarsee Nat,,,,,,GPS,,,,Exact,47.1926,13.3198,+1:00
+75,POTA-AT,AT-0084,Zeller See Natur,,,,,,GPS,,,,Exact,47.3198,12.8046,+1:00
+75,POTA-AT,AT-0282,European long-di,,,,,,GPS,,,,Exact,48.0737,16.1617,+1:00
+75,POTA-AT,AT-0291,Zentralalpenweg ,,,,,,GPS,,,,Exact,47.2714,14.7821,+1:00
+75,POTA-AT,AT-0322,Nordmoor am Matt,,,,,,GPS,,,,Exact,47.9939,13.1512,+1:00
+75,POTA-AT,AT-0328,Hammerauer-Moor ,,,,,,GPS,,,,Exact,47.7684,13.0071,+1:00
+75,POTA-AT,AT-0329,Ursprunger Moor ,,,,,,GPS,,,,Exact,47.8859,13.0619,+1:00
+75,POTA-AT,AT-0330,Weidmoos Nature ,,,,,,GPS,,,,Exact,48.0292,12.9446,+1:00
+75,POTA-AT,AT-0333,Oichtenriede Nat,,,,,,GPS,,,,Exact,48.0202,13.0447,+1:00
+75,POTA-AT,AT-0334,Obertummer See N,,,,,,GPS,,,,Exact,47.9611,13.0806,+1:00
+75,POTA-AT,AT-0335,Egelseen Nationa,,,,,,GPS,,,,Exact,47.9595,13.1256,+1:00
+75,POTA-AT,AT-0336,Blinklingmoos Na,,,,,,GPS,,,,Exact,47.7175,13.4681,+1:00
+75,POTA-AT,AT-0337,Buermooser Moor ,,,,,,GPS,,,,Exact,47.9994,12.9278,+1:00
+75,POTA-AT,AT-0011,Almenland Nature,,,,,,GPS,,,,Exact,47.3206,15.5465,+1:00
+75,POTA-AT,AT-0038,Zirbitzkogel-Gre,,,,,,GPS,,,,Exact,47.0633,14.3581,+1:00
+75,POTA-AT,AT-0044,Gesaeuse Nationa,,,,,,GPS,,,,Exact,47.5734,14.6402,+1:00
+75,POTA-AT,AT-0048,Botanischer Gart,,,,,,GPS,,,,Exact,47.0819,15.4571,+1:00
+75,POTA-AT,AT-0066,Riesachtal In De,,,,,,GPS,,,,Exact,47.3465,13.7961,+1:00
+75,POTA-AT,AT-0067,Stausee Pasz Ste,,,,,,GPS,,,,Exact,47.5343,13.9225,+1:00
+75,POTA-AT,AT-0068,Grebenzen - Furt,,,,,,GPS,,,,Exact,47.0704,14.367,+1:00
+75,POTA-AT,AT-0069,Poellauer Tal Na,,,,,,GPS,,,,Exact,47.3022,15.8385,+1:00
+75,POTA-AT,AT-0071,Soelkerpasz Natu,,,,,,GPS,,,,Exact,47.2714,14.0803,+1:00
+75,POTA-AT,AT-0079,Palten- und Lies,,,,,,GPS,,,,Exact,47.4948,14.4857,+1:00
+75,POTA-AT,AT-0080,Zirbitzkogel Nat,,,,,,GPS,,,,Exact,47.0628,14.5701,+1:00
+75,POTA-AT,AT-0081,Lassnitzau Natur,,,,,,GPS,,,,Exact,46.8628,15.4758,+1:00
+75,POTA-AT,AT-0088,Wildalpener Salz,,,,,,GPS,,,,Exact,47.6604,14.9937,+1:00
+75,POTA-AT,AT-0109,Hoerfeld Nationa,,,,,,GPS,,,,Exact,47.0142,14.5128,+1:00
+75,POTA-AT,AT-0273,Hartberger Gmoos,,,,,,GPS,,,,Exact,47.274,15.9713,+1:00
+75,POTA-AT,AT-0274,Feistritzklamm /,,,,,,GPS,,,,Exact,47.2201,15.8102,+1:00
+75,POTA-AT,AT-0275,Stubenbergsee Re,,,,,,GPS,,,,Exact,47.2288,15.7996,+1:00
+75,POTA-AT,AT-0276,Poellauberg Hist,,,,,,GPS,,,,Exact,47.3152,15.8572,+1:00
+75,POTA-AT,AT-0277,Schielleiten Cas,,,,,,GPS,,,,Exact,47.2319,15.8255,+1:00
+75,POTA-AT,AT-0281,East Austrian bo,,,,,,GPS,,,,Exact,48.1357,16.6334,+1:00
+75,POTA-AT,AT-0282,European long-di,,,,,,GPS,,,,Exact,48.0737,16.1617,+1:00
+75,POTA-AT,AT-0283,Lower Austrian s,,,,,,GPS,,,,Exact,48.303,15.1015,+1:00
+75,POTA-AT,AT-0291,Zentralalpenweg ,,,,,,GPS,,,,Exact,47.2714,14.7821,+1:00
+75,POTA-AT,AT-0296,Burgenlaendische,,,,,,GPS,,,,Exact,47.701,16.2912,+1:00
+75,POTA-AT,AT-0299,St. Mary’s Trail,,,,,,GPS,,,,Exact,47.737,16.3975,+1:00
+75,POTA-AT,AT-0301,Wiener Alpenboge,,,,,,GPS,,,,Exact,47.5598,15.9054,+1:00
+75,POTA-AT,AT-0028,Karwendel Nature,,,,,,GPS,,,,Exact,47.406,11.4887,+1:00
+75,POTA-AT,AT-0029,Kaunergrat Natur,,,,,,GPS,,,,Exact,47.406,11.4887,+1:00
+75,POTA-AT,AT-0035,Oetztal Nature R,,,,,,GPS,,,,Exact,46.9163,10.9802,+1:00
+75,POTA-AT,AT-0039,Hohe Tauern Nati,,,,,,GPS,,,,Exact,47.0667,12.6667,+1:00
+75,POTA-AT,AT-0047,Botanischer Gart,,,,,,GPS,,,,Exact,47.2677,11.3792,+1:00
+75,POTA-AT,AT-0051,Kalkhochalpen Ho,,,,,,GPS,,,,Exact,47.4562,13.0133,+1:00
+75,POTA-AT,AT-0052,Felbertal Ammert,,,,,,GPS,,,,Exact,47.1943,12.5192,+1:00
+75,POTA-AT,AT-0072,Naturschutzgebie,,,,,,GPS,,,,Exact,47.318,11.3821,+1:00
+75,POTA-AT,AT-0073,Otztaler Alpen N,,,,,,GPS,,,,Exact,46.8358,10.9449,+1:00
+75,POTA-AT,AT-0074,Baerenkopf Natur,,,,,,GPS,,,,Exact,47.4056,11.7268,+1:00
+75,POTA-AT,AT-0075,Stubaier Alpen N,,,,,,GPS,,,,Exact,47.0169,11.0551,+1:00
+75,POTA-AT,AT-0078,Patscherkofel-Zi,,,,,,GPS,,,,Exact,47.2249,11.4593,+1:00
+75,POTA-AT,AT-0161,Nordkette Landsc,,,,,,GPS,,,,Exact,47.3117,11.454,+1:00
+75,POTA-AT,AT-0162,Martinswand-Sols,,,,,,GPS,,,,Exact,47.2903,11.2815,+1:00
+75,POTA-AT,AT-0163,Arzler Kalvarien,,,,,,GPS,,,,Exact,47.2821,11.4351,+1:00
+75,POTA-AT,AT-0164,Kalkkoegel Lands,,,,,,GPS,,,,Exact,47.1684,11.2834,+1:00
+75,POTA-AT,AT-0165,Rosengarten Nati,,,,,,GPS,,,,Exact,47.2158,11.4141,+1:00
+75,POTA-AT,AT-0166,Feuchtgebiete um,,,,,,GPS,,,,Exact,47.3166,11.6093,+1:00
+75,POTA-AT,AT-0167,Kerschbaumeralmt,,,,,,GPS,,,,Exact,46.785,12.7694,+1:00
+75,POTA-AT,AT-0168,Alter See Nature,,,,,,GPS,,,,Exact,46.808,12.7889,+1:00
+75,POTA-AT,AT-0169,Wacholdergruppen,,,,,,GPS,,,,Exact,46.7885,12.8728,+1:00
+75,POTA-AT,AT-0282,European long-di,,,,,,GPS,,,,Exact,48.0737,16.1617,+1:00
+75,POTA-AT,AT-0291,Zentralalpenweg ,,,,,,GPS,,,,Exact,47.2714,14.7821,+1:00
+75,POTA-AT,AT-0297,Serles - Habicht,,,,,,GPS,,,,Exact,47.0072,11.2534,+1:00
+75,POTA-AT,AT-0308,Tiefer-Wald Natu,,,,,,GPS,,,,Exact,46.8977,10.4631,+1:00
+75,POTA-AT,AT-0309,Naturdenkmal Pil,,,,,,GPS,,,,Exact,47.1247,10.6623,+1:00
+75,POTA-AT,AT-0315,Moorlandschaft S,,,,,,GPS,,,,Exact,47.6588,12.2994,+1:00
+75,POTA-AT,AT-0033,Nagelfluhkette N,,,,,,GPS,,,,Exact,47.4954,10.0786,+1:00
+75,POTA-AT,AT-0049,Rappenlochschluc,,,,,,GPS,,,,Exact,47.3858,9.77986,+1:00
+75,POTA-AT,AT-0050,Wildpark Feldkir,,,,,,GPS,,,,Exact,47.2459,9.59725,+1:00
+75,POTA-AT,AT-0070,Gadental Nature ,,,,,,GPS,,,,Exact,47.2257,10.0084,+1:00
+75,POTA-AT,AT-0152,Rheindelta Natur,,,,,,GPS,,,,Exact,47.4834,9.64911,+1:00
+75,POTA-AT,AT-0153,Mehrerauer Seeuf,,,,,,GPS,,,,Exact,47.5011,9.70178,+1:00
+75,POTA-AT,AT-0154,Bregenzerachschl,,,,,,GPS,,,,Exact,47.4898,9.80957,+1:00
+75,POTA-AT,AT-0282,European long-di,,,,,,GPS,,,,Exact,48.0737,16.1617,+1:00
+75,POTA-AT,AT-0291,Zentralalpenweg ,,,,,,GPS,,,,Exact,47.2714,14.7821,+1:00
+75,POTA-AT,AT-0001,Schweizergarten ,,,,,,GPS,,,,Exact,48.1869,16.3857,+1:00
+75,POTA-AT,AT-0002,Vienna Prater Re,,,,,,GPS,,,,Exact,48.2035,16.4175,+1:00
+75,POTA-AT,AT-0003,Schoenbrunner Sc,,,,,,GPS,,,,Exact,48.1816,16.3105,+1:00
+75,POTA-AT,AT-0004,Schoenbrunner Ti,,,,,,GPS,,,,Exact,48.1822,16.3046,+1:00
+75,POTA-AT,AT-0005,Lainzer Tiergart,,,,,,GPS,,,,Exact,48.1845,16.2191,+1:00
+75,POTA-AT,AT-0046,Botanischer gart,,,,,,GPS,,,,Exact,48.1924,16.3841,+1:00
+75,POTA-AT,AT-0174,Wienerberg Recre,,,,,,GPS,,,,Exact,48.1611,16.3462,+1:00
+75,POTA-AT,AT-0187,Augarten Park,,,,,,GPS,,,,Exact,48.2261,16.3767,+1:00
+75,POTA-AT,AT-0188,Theresa-Tauscher,,,,,,GPS,,,,Exact,48.2602,16.4297,+1:00
+75,POTA-AT,AT-0189,Forsthauspark Pa,,,,,,GPS,,,,Exact,48.2443,16.374,+1:00
+75,POTA-AT,AT-0190,Donauinsel Park,,,,,,GPS,,,,Exact,48.2512,16.3838,+1:00
+75,POTA-AT,AT-0203,Laaer Wald Recre,,,,,,GPS,,,,Exact,48.1607,16.3964,+1:00
+75,POTA-AT,AT-0204,Kurpark Oberlaa ,,,,,,GPS,,,,Exact,48.1487,16.4001,+1:00
+75,POTA-AT,AT-0213,Donaupark Recrea,,,,,,GPS,,,,Exact,48.2393,16.4115,+1:00
+75,POTA-AT,AT-0281,East Austrian bo,,,,,,GPS,,,,Exact,48.1357,16.6334,+1:00
+75,POTA-AT,AT-0282,European long-di,,,,,,GPS,,,,Exact,48.0737,16.1617,+1:00
+75,POTA-AT,AT-0283,Lower Austrian s,,,,,,GPS,,,,Exact,48.303,15.1015,+1:00
+75,POTA-AT,AT-0316,Lobau Nature Res,,,,,,GPS,,,,Exact,48.1887,16.5127,+1:00
+77,POTA-SG,SG-0002,Ang Mo Kio Town ,,,,,,GPS,,,,Exact,1.3707,103.85,+8:00
+77,POTA-SG,SG-0003,Ang Mo Kio Town ,,,,,,GPS,,,,Exact,1.3744,103.843,+8:00
+77,POTA-SG,SG-0014,Bishan-Ang Mo Ki,,,,,,GPS,,,,Exact,1.3636,103.842,+8:00
+77,POTA-SG,SG-0017,Fort Canning Par,,,,,,GPS,,,,Exact,1.2945,103.846,+8:00
+77,POTA-SG,SG-0026,Kallang Riversid,,,,,,GPS,,,,Exact,1.307,103.868,+8:00
+77,POTA-SG,SG-0031,Lower Peirce Res,,,,,,GPS,,,,Exact,1.372,103.826,+8:00
+77,POTA-SG,SG-0033,MacRitchie Reser,,,,,,GPS,,,,Exact,1.3448,103.822,+8:00
+77,POTA-SG,SG-0035,Mount Faber Park,,,,,,GPS,,,,Exact,1.2738,103.817,+8:00
+77,POTA-SG,SG-0036,Singapore Botani,,,,,,GPS,,,,Exact,1.3117,103.815,+8:00
+77,POTA-SG,SG-0038,Pearl's Hill Cit,,,,,,GPS,,,,Exact,1.2847,103.84,+8:00
+77,POTA-SG,SG-0044,Sengkang Riversi,,,,,,GPS,,,,Exact,1.3982,103.884,+8:00
+77,POTA-SG,SG-0051,Tiong Bahru Park,,,,,,GPS,,,,Exact,1.2874,103.825,+8:00
+77,POTA-SG,SG-0052,Toa Payoh Town P,,,,,,GPS,,,,Exact,1.3308,103.847,+8:00
+77,POTA-SG,SG-0055,Mount Emily Park,,,,,,GPS,,,,Exact,1.3046,103.848,+8:00
+77,POTA-SG,SG-0056,Windsor Nature P,,,,,,GPS,,,,Exact,1.3599,103.827,+8:00
+77,POTA-SG,SG-0066,Thompson Nature ,,,,,,GPS,,,,Exact,1.3834,103.822,+8:00
+77,POTA-SG,SG-0004,Bedok Reservoir ,,,,,,GPS,,,,Exact,1.3413,103.924,+8:00
+77,POTA-SG,SG-0005,Bedok Town Park ,,,,,,GPS,,,,Exact,1.3354,103.926,+8:00
+77,POTA-SG,SG-0013,Coney Island Par,,,,,,GPS,,,,Exact,1.4093,103.922,+8:00
+77,POTA-SG,SG-0037,Pasir Ris Park N,,,,,,GPS,,,,Exact,1.3827,103.948,+8:00
+77,POTA-SG,SG-0040,Punggol Park Nat,,,,,,GPS,,,,Exact,1.3772,103.898,+8:00
+77,POTA-SG,SG-0041,Punggol Waterway,,,,,,GPS,,,,Exact,1.4111,103.905,+8:00
+77,POTA-SG,SG-0046,Sun Plaza Park N,,,,,,GPS,,,,Exact,1.3591,103.945,+8:00
+77,POTA-SG,SG-0048,Tampines Eco Gre,,,,,,GPS,,,,Exact,1.3646,103.948,+8:00
+77,POTA-SG,SG-0062,Pasir Ris Town P,,,,,,GPS,,,,Exact,1.372,103.952,+8:00
+77,POTA-SG,SG-0001,Admiralty Nation,,,,,,GPS,,,,Exact,1.4484,103.779,+8:00
+77,POTA-SG,SG-0007,Bukit Timah Natu,,,,,,GPS,,,,Exact,1.3541,103.777,+8:00
+77,POTA-SG,SG-0008,Central Catchmen,,,,,,GPS,,,,Exact,1.367,103.8,+8:00
+77,POTA-SG,SG-0010,Chestnut Nature ,,,,,,GPS,,,,Exact,1.3712,103.78,+8:00
+77,POTA-SG,SG-0018,Hindhede Nature ,,,,,,GPS,,,,Exact,1.3489,103.776,+8:00
+77,POTA-SG,SG-0027,Dairy Farm Natur,,,,,,GPS,,,,Exact,1.3638,103.775,+8:00
+77,POTA-SG,SG-0032,Lower Seletar Re,,,,,,GPS,,,,Exact,1.4106,103.833,+8:00
+77,POTA-SG,SG-0034,Marsiling Park N,,,,,,GPS,,,,Exact,1.4381,103.771,+8:00
+77,POTA-SG,SG-0043,Sembawang Park N,,,,,,GPS,,,,Exact,1.4604,103.836,+8:00
+77,POTA-SG,SG-0045,Springleaf Natur,,,,,,GPS,,,,Exact,1.4012,103.819,+8:00
+77,POTA-SG,SG-0053,Upper Peirce Res,,,,,,GPS,,,,Exact,1.3747,103.811,+8:00
+77,POTA-SG,SG-0054,Upper Seletar Re,,,,,,GPS,,,,Exact,1.3969,103.803,+8:00
+77,POTA-SG,SG-0057,Yishun Neighbour,,,,,,GPS,,,,Exact,1.4379,103.835,+8:00
+77,POTA-SG,SG-0058,Yishun Park Nati,,,,,,GPS,,,,Exact,1.4244,103.842,+8:00
+77,POTA-SG,SG-0059,Yishun Pond Park,,,,,,GPS,,,,Exact,1.4279,103.84,+8:00
+77,POTA-SG,SG-0061,Zhenghua Nature ,,,,,,GPS,,,,Exact,1.3858,103.774,+8:00
+77,POTA-SG,SG-0065,Rifle Range Natu,,,,,,GPS,,,,Exact,1.344,103.781,+8:00
+77,POTA-SG,SG-0068,Woodlands Town P,,,,,,GPS,,,,Exact,1.4366,103.779,+8:00
+77,POTA-SG,SG-0069,Woodlands Waterf,,,,,,GPS,,,,Exact,1.4531,103.78,+8:00
+77,POTA-SG,SG-0009,Changi Beach Coa,,,,,,GPS,,,,Exact,1.3909,103.992,+8:00
+77,POTA-SG,SG-0015,East Coast Park ,,,,,,GPS,,,,Exact,1.3008,103.912,+8:00
+77,POTA-SG,SG-0039,Pulau Ubin and C,,,,,,GPS,,,,Exact,1.4109,103.965,+8:00
+77,POTA-SG,SG-0006,Bukit Batok Town,,,,,,GPS,,,,Exact,1.3556,103.755,+8:00
+77,POTA-SG,SG-0011,Choa Chu Kang Pa,,,,,,GPS,,,,Exact,1.3869,103.747,+8:00
+77,POTA-SG,SG-0012,Clementi Woods P,,,,,,GPS,,,,Exact,1.3017,103.767,+8:00
+77,POTA-SG,SG-0022,Bukit Batok Natu,,,,,,GPS,,,,Exact,1.349,103.764,+8:00
+77,POTA-SG,SG-0024,Jurong Central P,,,,,,GPS,,,,Exact,1.3381,103.708,+8:00
+77,POTA-SG,SG-0025,Jurong Lake Gard,,,,,,GPS,,,,Exact,1.3367,103.727,+8:00
+77,POTA-SG,SG-0028,Kranji Marshes N,,,,,,GPS,,,,Exact,1.4197,103.73,+8:00
+77,POTA-SG,SG-0029,Kranji Reservoir,,,,,,GPS,,,,Exact,1.4397,103.738,+8:00
+77,POTA-SG,SG-0030,Labrador Nature ,,,,,,GPS,,,,Exact,1.2659,103.803,+8:00
+77,POTA-SG,SG-0042,Kent Ridge Park ,,,,,,GPS,,,,Exact,1.2838,103.791,+8:00
+77,POTA-SG,SG-0047,Sungei Buloh Wet,,,,,,GPS,,,,Exact,1.448,103.725,+8:00
+77,POTA-SG,SG-0049,Telok Blangah Hi,,,,,,GPS,,,,Exact,1.2788,103.811,+8:00
+77,POTA-SG,SG-0050,The Southern Rid,,,,,,GPS,,,,Exact,1.2801,103.803,+8:00
+77,POTA-SG,SG-0060,Pasir Panjang Pa,,,,,,GPS,,,,Exact,1.2756,103.792,+8:00
+77,POTA-SG,SG-0063,One-north Park: ,,,,,,GPS,,,,Exact,1.3028,103.791,+8:00
+77,POTA-SG,SG-0064,One-north Park: ,,,,,,GPS,,,,Exact,1.2992,103.791,+8:00
+77,POTA-SG,SG-0067,West Coast Park ,,,,,,GPS,,,,Exact,1.298,103.762,+8:00
+76,POTA-SK,SK-0002,Nizke Tatry Nati,,,,,,GPS,,,,Exact,48.94,19.515,+1:00
+76,POTA-SK,SK-0003,Slovensky raj Na,,,,,,GPS,,,,Exact,48.9,20.349,+1:00
+76,POTA-SK,SK-0006,Velka Fatra Nati,,,,,,GPS,,,,Exact,48.938,19.083,+1:00
+76,POTA-SK,SK-0007,Muranska planina,,,,,,GPS,,,,Exact,48.78,19.897,+1:00
+76,POTA-SK,SK-0017,Cerova vrchovina,,,,,,GPS,,,,Exact,48.21,19.975,+1:00
+76,POTA-SK,SK-0022,Polana - Protect,,,,,,GPS,,,,Exact,48.648,19.485,+1:00
+76,POTA-SK,SK-0025,Stiavnicke Vrchy,,,,,,GPS,,,,Exact,48.408,18.865,+1:00
+76,POTA-SK,SK-0195,Park Kupele Brus,,,,,,GPS,,,,Exact,48.7834,19.3949,+1:00
+76,POTA-SK,SK-0196,Park Kastiel Hro,,,,,,GPS,,,,Exact,48.65,19.1569,+1:00
+76,POTA-SK,SK-0197,Mestsky park Bre,,,,,,GPS,,,,Exact,48.8069,19.6438,+1:00
+76,POTA-SK,SK-0198,Park Kastiel Hon,,,,,,GPS,,,,Exact,48.1859,18.8527,+1:00
+76,POTA-SK,SK-0199,Mestsky park Kru,,,,,,GPS,,,,Exact,48.3528,19.0648,+1:00
+76,POTA-SK,SK-0200,Halicsky park - ,,,,,,GPS,,,,Exact,48.3568,19.5755,+1:00
+76,POTA-SK,SK-0201,Park Kastiel Pod,,,,,,GPS,,,,Exact,48.4024,19.5987,+1:00
+76,POTA-SK,SK-0202,Park Kastiel Vid,,,,,,GPS,,,,Exact,48.3586,19.6516,+1:00
+76,POTA-SK,SK-0203,Park Kastiel Huc,,,,,,GPS,,,,Exact,48.5626,20.301,+1:00
+76,POTA-SK,SK-0204,Park Kastiel Gem,,,,,,GPS,,,,Exact,48.4508,20.3169,+1:00
+76,POTA-SK,SK-0205,Park Kastiel Ciz,,,,,,GPS,,,,Exact,48.3151,20.2811,+1:00
+76,POTA-SK,SK-0206,Park Kastiel Hra,,,,,,GPS,,,,Exact,48.4668,19.9506,+1:00
+76,POTA-SK,SK-0207,Park Kastiel Kra,,,,,,GPS,,,,Exact,48.3281,20.3428,+1:00
+76,POTA-SK,SK-0208,Park Kastiel Val,,,,,,GPS,,,,Exact,48.448,20.1991,+1:00
+76,POTA-SK,SK-0209,Park Kastiel Ozd,,,,,,GPS,,,,Exact,48.3801,19.8972,+1:00
+76,POTA-SK,SK-0211,Park Kastiel Vel,,,,,,GPS,,,,Exact,48.451,20.1136,+1:00
+76,POTA-SK,SK-0212,Park Kastiel Zip,,,,,,GPS,,,,Exact,48.3622,20.205,+1:00
+76,POTA-SK,SK-0213,Anglicky park Si,,,,,,GPS,,,,Exact,48.2922,20.085,+1:00
+76,POTA-SK,SK-0214,Anglicky park Ce,,,,,,GPS,,,,Exact,48.142,19.4913,+1:00
+76,POTA-SK,SK-0215,Park Kastiel Dol,,,,,,GPS,,,,Exact,48.2492,19.4907,+1:00
+76,POTA-SK,SK-0217,Park Kastiel Zel,,,,,,GPS,,,,Exact,48.124,19.3599,+1:00
+76,POTA-SK,SK-0218,Park Kupele Slia,,,,,,GPS,,,,Exact,48.6091,19.1585,+1:00
+76,POTA-SK,SK-0219,Park Stefana Moy,,,,,,GPS,,,,Exact,48.5857,18.8657,+1:00
+76,POTA-SK,SK-0220,Park Kastiel Hli,,,,,,GPS,,,,Exact,48.5428,18.783,+1:00
+76,POTA-SK,SK-0221,Mestsky park Luc,,,,,,GPS,,,,Exact,48.3418,19.6809,+1:00
+76,POTA-SK,SK-0015,Male Karpaty - P,,,,,,GPS,,,,Exact,48.433,17.322,+1:00
+76,POTA-SK,SK-0018,Dunajske luhy - ,,,,,,GPS,,,,Exact,47.8949,17.4982,+1:00
+76,POTA-SK,SK-0028,Zahorie - Protec,,,,,,GPS,,,,Exact,48.44,16.87,+1:00
+76,POTA-SK,SK-0043,Horsky park - Pr,,,,,,GPS,,,,Exact,48.1575,17.0912,+1:00
+76,POTA-SK,SK-0078,Park Kastiel Tom,,,,,,GPS,,,,Exact,48.1381,17.3232,+1:00
+76,POTA-SK,SK-0079,Park Kastiel Bud,,,,,,GPS,,,,Exact,48.3633,17.3962,+1:00
+76,POTA-SK,SK-0080,Zamocky park Mal,,,,,,GPS,,,,Exact,48.4398,17.0312,+1:00
+76,POTA-SK,SK-0082,Sad Janka Krala ,,,,,,GPS,,,,Exact,48.1349,17.1094,+1:00
+76,POTA-SK,SK-0109,Slavin - Nationa,,,,,,GPS,,,,Exact,48.1539,17.0996,+1:00
+76,POTA-SK,SK-0110,Park Kastiel Vin,,,,,,GPS,,,,Exact,48.3153,17.2953,+1:00
+76,POTA-SK,SK-0111,Park Kastiel Mod,,,,,,GPS,,,,Exact,48.3412,17.3126,+1:00
+76,POTA-SK,SK-0112,Zamocky park Pez,,,,,,GPS,,,,Exact,48.2919,17.2668,+1:00
+76,POTA-SK,SK-0113,Park Kastiel Ber,,,,,,GPS,,,,Exact,48.2035,17.2861,+1:00
+76,POTA-SK,SK-0114,Park Kastiel Iva,,,,,,GPS,,,,Exact,48.1915,17.2579,+1:00
+76,POTA-SK,SK-0115,Park Kastiel Vel,,,,,,GPS,,,,Exact,48.2159,17.3616,+1:00
+76,POTA-SK,SK-0116,Park Kastiel Ruz,,,,,,GPS,,,,Exact,48.1446,17.1671,+1:00
+76,POTA-SK,SK-0003,Slovensky raj Na,,,,,,GPS,,,,Exact,48.9,20.349,+1:00
+76,POTA-SK,SK-0008,Slovensky kras N,,,,,,GPS,,,,Exact,48.675,20.83,+1:00
+76,POTA-SK,SK-0021,Latorica - Prote,,,,,,GPS,,,,Exact,48.4979,21.9539,+1:00
+76,POTA-SK,SK-0026,Vihorlat - Prote,,,,,,GPS,,,,Exact,48.87,22.195,+1:00
+76,POTA-SK,SK-0083,Andrassyovsky pa,,,,,,GPS,,,,Exact,48.6197,21.721,+1:00
+76,POTA-SK,SK-0084,Park Kastiel Sem,,,,,,GPS,,,,Exact,48.6793,21.1128,+1:00
+76,POTA-SK,SK-0085,Francuzsky park ,,,,,,GPS,,,,Exact,48.9162,20.6243,+1:00
+76,POTA-SK,SK-0086,Park Kastiel Hod,,,,,,GPS,,,,Exact,48.9898,20.782,+1:00
+76,POTA-SK,SK-0087,Park Kupele Stos,,,,,,GPS,,,,Exact,48.7368,20.7876,+1:00
+76,POTA-SK,SK-0088,Historicky park ,,,,,,GPS,,,,Exact,48.7956,21.3068,+1:00
+76,POTA-SK,SK-0089,Park Kastiel Bet,,,,,,GPS,,,,Exact,48.7061,20.5102,+1:00
+76,POTA-SK,SK-0244,Park Barczyovsky,,,,,,GPS,,,,Exact,48.6782,21.2671,+1:00
+76,POTA-SK,SK-0245,Park Kupele Herl,,,,,,GPS,,,,Exact,48.8016,21.477,+1:00
+76,POTA-SK,SK-0247,Park Kastiel Niz,,,,,,GPS,,,,Exact,48.7585,21.4787,+1:00
+76,POTA-SK,SK-0248,Park Kastiel Vel,,,,,,GPS,,,,Exact,48.598,21.1654,+1:00
+76,POTA-SK,SK-0249,Park Kastiel Zar,,,,,,GPS,,,,Exact,48.5866,20.9205,+1:00
+76,POTA-SK,SK-0250,Park mieru Micha,,,,,,GPS,,,,Exact,48.7546,21.9213,+1:00
+76,POTA-SK,SK-0251,Park Kuria Rakov,,,,,,GPS,,,,Exact,48.7781,21.7837,+1:00
+76,POTA-SK,SK-0252,Park Pavlovce na,,,,,,GPS,,,,Exact,48.6117,22.0651,+1:00
+76,POTA-SK,SK-0253,Park Vodny hrad ,,,,,,GPS,,,,Exact,48.6569,20.3662,+1:00
+76,POTA-SK,SK-0254,Park Krasnohorsk,,,,,,GPS,,,,Exact,48.6456,20.6059,+1:00
+76,POTA-SK,SK-0255,Park Kuria Jenko,,,,,,GPS,,,,Exact,48.6544,22.2102,+1:00
+76,POTA-SK,SK-0256,Park Kastiel Bet,,,,,,GPS,,,,Exact,48.9806,20.3914,+1:00
+76,POTA-SK,SK-0257,Anglicky park Ma,,,,,,GPS,,,,Exact,48.9166,20.6244,+1:00
+76,POTA-SK,SK-0258,Park Kastiel Str,,,,,,GPS,,,,Exact,48.3697,21.7531,+1:00
+76,POTA-SK,SK-0259,Park Kastiel Pri,,,,,,GPS,,,,Exact,48.3901,22.0073,+1:00
+76,POTA-SK,SK-0260,Anglicky park Bi,,,,,,GPS,,,,Exact,48.4039,22.0585,+1:00
+76,POTA-SK,SK-0261,Mestsky park Kos,,,,,,GPS,,,,Exact,48.7242,21.2642,+1:00
+76,POTA-SK,SK-0018,Dunajske luhy - ,,,,,,GPS,,,,Exact,47.8949,17.4982,+1:00
+76,POTA-SK,SK-0023,Ponitrie - Prote,,,,,,GPS,,,,Exact,48.495,18.265,+1:00
+76,POTA-SK,SK-0038,Babsky park - Pr,,,,,,GPS,,,,Exact,48.3013,17.8907,+1:00
+76,POTA-SK,SK-0039,Bohatsky park - ,,,,,,GPS,,,,Exact,47.8826,18.2001,+1:00
+76,POTA-SK,SK-0040,Cicovsky park - ,,,,,,GPS,,,,Exact,47.7737,17.7671,+1:00
+76,POTA-SK,SK-0045,Hurbanovsky park,,,,,,GPS,,,,Exact,47.8735,18.189,+1:00
+76,POTA-SK,SK-0046,Kastielsky park ,,,,,,GPS,,,,Exact,47.8918,18.2025,+1:00
+76,POTA-SK,SK-0047,Klasovsky park -,,,,,,GPS,,,,Exact,48.276,18.2613,+1:00
+76,POTA-SK,SK-0048,Komjaticky park ,,,,,,GPS,,,,Exact,48.1557,18.182,+1:00
+76,POTA-SK,SK-0050,Kraviansky park ,,,,,,GPS,,,,Exact,47.7592,18.4841,+1:00
+76,POTA-SK,SK-0052,Lapassky park - ,,,,,,GPS,,,,Exact,48.3092,18.1781,+1:00
+76,POTA-SK,SK-0053,Levicky park - P,,,,,,GPS,,,,Exact,48.2155,18.6028,+1:00
+76,POTA-SK,SK-0054,Lipovsky park - ,,,,,,GPS,,,,Exact,48.1082,18.1891,+1:00
+76,POTA-SK,SK-0055,Maniansky park -,,,,,,GPS,,,,Exact,48.152,18.2862,+1:00
+76,POTA-SK,SK-0056,Marcelovsky park,,,,,,GPS,,,,Exact,47.7944,18.2753,+1:00
+76,POTA-SK,SK-0057,Mocensky park - ,,,,,,GPS,,,,Exact,48.2323,17.9282,+1:00
+76,POTA-SK,SK-0058,Novovesky park -,,,,,,GPS,,,,Exact,48.291,18.3273,+1:00
+76,POTA-SK,SK-0059,Palarikovsky par,,,,,,GPS,,,,Exact,48.0382,18.069,+1:00
+76,POTA-SK,SK-0062,Rumanovsky park ,,,,,,GPS,,,,Exact,48.3281,17.8727,+1:00
+76,POTA-SK,SK-0063,Rubaniansky park,,,,,,GPS,,,,Exact,47.9322,18.3921,+1:00
+76,POTA-SK,SK-0066,Strazsky park - ,,,,,,GPS,,,,Exact,47.7598,18.0529,+1:00
+76,POTA-SK,SK-0067,Svaetopetersky p,,,,,,GPS,,,,Exact,47.8504,18.2631,+1:00
+76,POTA-SK,SK-0069,Suriansky park -,,,,,,GPS,,,,Exact,48.422,18.0202,+1:00
+76,POTA-SK,SK-0070,Tesarsky park - ,,,,,,GPS,,,,Exact,48.5949,18.078,+1:00
+76,POTA-SK,SK-0073,Topolciansky par,,,,,,GPS,,,,Exact,48.4218,18.413,+1:00
+76,POTA-SK,SK-0074,Tovarnicky park ,,,,,,GPS,,,,Exact,48.5684,18.1477,+1:00
+76,POTA-SK,SK-0075,Zeliezovsky park,,,,,,GPS,,,,Exact,48.0448,18.6567,+1:00
+76,POTA-SK,SK-0076,Zitavsky park - ,,,,,,GPS,,,,Exact,48.2046,18.2979,+1:00
+76,POTA-SK,SK-0090,Park Kastiel Opo,,,,,,GPS,,,,Exact,48.4483,18.1563,+1:00
+76,POTA-SK,SK-0091,Park Kastiel Moj,,,,,,GPS,,,,Exact,48.2067,18.061,+1:00
+76,POTA-SK,SK-0161,Leharov park - N,,,,,,GPS,,,,Exact,47.7575,18.1241,+1:00
+76,POTA-SK,SK-0162,Park Kastiel Hor,,,,,,GPS,,,,Exact,48.1284,18.8799,+1:00
+76,POTA-SK,SK-0163,Park Kastiel Hor,,,,,,GPS,,,,Exact,48.4208,18.1473,+1:00
+76,POTA-SK,SK-0164,Park Kastiel Luc,,,,,,GPS,,,,Exact,48.2152,18.2909,+1:00
+76,POTA-SK,SK-0165,Park Kastiel na ,,,,,,GPS,,,,Exact,48.321,18.1465,+1:00
+76,POTA-SK,SK-0166,Park Kastiel Nit,,,,,,GPS,,,,Exact,48.5219,18.1761,+1:00
+76,POTA-SK,SK-0167,Maly park Nitria,,,,,,GPS,,,,Exact,48.5258,18.1752,+1:00
+76,POTA-SK,SK-0168,Rudnyanskeho par,,,,,,GPS,,,,Exact,48.1365,18.3347,+1:00
+76,POTA-SK,SK-0169,Beladicky park -,,,,,,GPS,,,,Exact,48.3413,18.2925,+1:00
+76,POTA-SK,SK-0170,Park Kastiel Kol,,,,,,GPS,,,,Exact,48.0196,18.4139,+1:00
+76,POTA-SK,SK-0171,Barlanghiho park,,,,,,GPS,,,,Exact,48.1365,18.3294,+1:00
+76,POTA-SK,SK-0172,Park Kastiel Ban,,,,,,GPS,,,,Exact,48.0527,18.1988,+1:00
+76,POTA-SK,SK-0174,Park Kastiel Haj,,,,,,GPS,,,,Exact,48.5343,18.0331,+1:00
+76,POTA-SK,SK-0175,Park Kastiel Hor,,,,,,GPS,,,,Exact,48.496,18.0482,+1:00
+76,POTA-SK,SK-0176,Park Kastiel Nit,,,,,,GPS,,,,Exact,48.5578,17.9669,+1:00
+76,POTA-SK,SK-0001,Tatra National P,,,,,,GPS,,,,Exact,49.1805,19.995,+1:00
+76,POTA-SK,SK-0003,Slovensky raj Na,,,,,,GPS,,,,Exact,48.9,20.349,+1:00
+76,POTA-SK,SK-0004,Pieniny National,,,,,,GPS,,,,Exact,49.38,20.495,+1:00
+76,POTA-SK,SK-0009,Poloniny Nationa,,,,,,GPS,,,,Exact,49.056,22.266,+1:00
+76,POTA-SK,SK-0026,Vihorlat - Prote,,,,,,GPS,,,,Exact,48.87,22.195,+1:00
+76,POTA-SK,SK-0027,Vychodne Karpaty,,,,,,GPS,,,,Exact,49.3267,21.938,+1:00
+76,POTA-SK,SK-0092,Park Kastiel Spi,,,,,,GPS,,,,Exact,48.9998,20.6428,+1:00
+76,POTA-SK,SK-0093,Historicky park ,,,,,,GPS,,,,Exact,48.985,22.1467,+1:00
+76,POTA-SK,SK-0094,Park Mieru Humen,,,,,,GPS,,,,Exact,48.9391,21.9096,+1:00
+76,POTA-SK,SK-0095,Park Kastiel Bij,,,,,,GPS,,,,Exact,49.0212,20.7929,+1:00
+76,POTA-SK,SK-0096,Park Kastiel Fri,,,,,,GPS,,,,Exact,49.0168,20.974,+1:00
+76,POTA-SK,SK-0097,Park Kastiel Str,,,,,,GPS,,,,Exact,49.172,20.4538,+1:00
+76,POTA-SK,SK-0098,Park Kastiel Sta,,,,,,GPS,,,,Exact,49.0011,22.2308,+1:00
+76,POTA-SK,SK-0222,Park Kastiel Kam,,,,,,GPS,,,,Exact,48.9349,22.0017,+1:00
+76,POTA-SK,SK-0223,Park Kastiel Bat,,,,,,GPS,,,,Exact,49.0751,20.1861,+1:00
+76,POTA-SK,SK-0224,Park Kastiel Luc,,,,,,GPS,,,,Exact,49.0515,20.1403,+1:00
+76,POTA-SK,SK-0225,Park Kastiel Dem,,,,,,GPS,,,,Exact,49.1056,21.3102,+1:00
+76,POTA-SK,SK-0226,Park Kastiel Her,,,,,,GPS,,,,Exact,49.0451,21.0187,+1:00
+76,POTA-SK,SK-0228,Panska zahrada N,,,,,,GPS,,,,Exact,49.0186,21.2799,+1:00
+76,POTA-SK,SK-0229,Park Kastiel Pet,,,,,,GPS,,,,Exact,48.9178,21.2591,+1:00
+76,POTA-SK,SK-0230,Park Kuria Zupca,,,,,,GPS,,,,Exact,49.0144,21.1551,+1:00
+76,POTA-SK,SK-0231,Park Kastiel Lub,,,,,,GPS,,,,Exact,48.9026,21.1864,+1:00
+76,POTA-SK,SK-0232,Park Kastiel Sar,,,,,,GPS,,,,Exact,48.8512,21.3159,+1:00
+76,POTA-SK,SK-0233,Park Kastiel Lub,,,,,,GPS,,,,Exact,49.0103,21.2739,+1:00
+76,POTA-SK,SK-0234,Park Kastiel Kri,,,,,,GPS,,,,Exact,49.17,20.9148,+1:00
+76,POTA-SK,SK-0235,Park Kastiel Sar,,,,,,GPS,,,,Exact,49.0686,21.1324,+1:00
+76,POTA-SK,SK-0236,Park Kastiel Sar,,,,,,GPS,,,,Exact,49.1759,20.8599,+1:00
+76,POTA-SK,SK-0238,Park Kastiel Raz,,,,,,GPS,,,,Exact,49.0804,21.0837,+1:00
+76,POTA-SK,SK-0239,Mariassyho park ,,,,,,GPS,,,,Exact,49.121,21.0431,+1:00
+76,POTA-SK,SK-0240,Park Kastiel Zel,,,,,,GPS,,,,Exact,49.1201,21.4263,+1:00
+76,POTA-SK,SK-0241,Park Kastiel Han,,,,,,GPS,,,,Exact,49.0263,21.4984,+1:00
+76,POTA-SK,SK-0242,Park Malonayayov,,,,,,GPS,,,,Exact,48.8529,21.7518,+1:00
+76,POTA-SK,SK-0243,Park Kastiel Chm,,,,,,GPS,,,,Exact,49.0025,21.0791,+1:00
+76,POTA-SK,SK-0015,Male Karpaty - P,,,,,,GPS,,,,Exact,48.433,17.322,+1:00
+76,POTA-SK,SK-0016,Biele Karpaty - ,,,,,,GPS,,,,Exact,48.94,17.92,+1:00
+76,POTA-SK,SK-0023,Ponitrie - Prote,,,,,,GPS,,,,Exact,48.495,18.265,+1:00
+76,POTA-SK,SK-0024,Strazovske vrchy,,,,,,GPS,,,,Exact,48.961,18.4624,+1:00
+76,POTA-SK,SK-0099,Park Kastiel Led,,,,,,GPS,,,,Exact,49.067,18.2871,+1:00
+76,POTA-SK,SK-0100,Historicky park ,,,,,,GPS,,,,Exact,49.0284,18.2094,+1:00
+76,POTA-SK,SK-0101,Park Kupele Tren,,,,,,GPS,,,,Exact,48.9084,18.1748,+1:00
+76,POTA-SK,SK-0102,Park Jana Baltaz,,,,,,GPS,,,,Exact,48.9623,18.1668,+1:00
+76,POTA-SK,SK-0137,Park Kastiel Dvo,,,,,,GPS,,,,Exact,48.7079,18.2227,+1:00
+76,POTA-SK,SK-0138,Park Kastiel Uhr,,,,,,GPS,,,,Exact,48.7452,18.3347,+1:00
+76,POTA-SK,SK-0139,Park Kastiel Sis,,,,,,GPS,,,,Exact,48.6553,18.1839,+1:00
+76,POTA-SK,SK-0140,Park Kastiel Boh,,,,,,GPS,,,,Exact,49.0201,18.1998,+1:00
+76,POTA-SK,SK-0141,Park Kastiel Bor,,,,,,GPS,,,,Exact,48.9777,18.1346,+1:00
+76,POTA-SK,SK-0142,Park Kastiel Klo,,,,,,GPS,,,,Exact,48.9896,18.2211,+1:00
+76,POTA-SK,SK-0143,Park Kastiel Lad,,,,,,GPS,,,,Exact,49.0357,18.2832,+1:00
+76,POTA-SK,SK-0144,Park Kastiel Bru,,,,,,GPS,,,,Exact,48.6717,17.8533,+1:00
+76,POTA-SK,SK-0145,Park Kastiel Koc,,,,,,GPS,,,,Exact,48.7415,17.8884,+1:00
+76,POTA-SK,SK-0146,Park Kastiel Luk,,,,,,GPS,,,,Exact,48.66,17.8806,+1:00
+76,POTA-SK,SK-0147,Park Kastiel Cas,,,,,,GPS,,,,Exact,48.6874,17.7863,+1:00
+76,POTA-SK,SK-0148,Park Kastiel Cac,,,,,,GPS,,,,Exact,48.715,17.7858,+1:00
+76,POTA-SK,SK-0149,Park Kastiel Bos,,,,,,GPS,,,,Exact,48.5814,18.2489,+1:00
+76,POTA-SK,SK-0150,Park Vodny hrad ,,,,,,GPS,,,,Exact,48.6314,18.3907,+1:00
+76,POTA-SK,SK-0151,Zamocky park Boj,,,,,,GPS,,,,Exact,48.7795,18.5783,+1:00
+76,POTA-SK,SK-0152,Park Kastiel Dol,,,,,,GPS,,,,Exact,49.0535,18.4199,+1:00
+76,POTA-SK,SK-0154,Park Kastiel Bys,,,,,,GPS,,,,Exact,48.6649,18.4832,+1:00
+76,POTA-SK,SK-0156,Park Kastiel Zem,,,,,,GPS,,,,Exact,48.6864,18.5245,+1:00
+76,POTA-SK,SK-0157,Park Kastiel Hor,,,,,,GPS,,,,Exact,49.0506,18.2599,+1:00
+76,POTA-SK,SK-0158,Adamovskokochano,,,,,,GPS,,,,Exact,48.8511,17.9319,+1:00
+76,POTA-SK,SK-0159,Zablatsky park -,,,,,,GPS,,,,Exact,48.8964,17.999,+1:00
+76,POTA-SK,SK-0160,Zemianskopodhrad,,,,,,GPS,,,,Exact,48.8391,17.8335,+1:00
+76,POTA-SK,SK-0015,Male Karpaty - P,,,,,,GPS,,,,Exact,48.433,17.322,+1:00
+76,POTA-SK,SK-0018,Dunajske luhy - ,,,,,,GPS,,,,Exact,47.8949,17.4982,+1:00
+76,POTA-SK,SK-0028,Zahorie - Protec,,,,,,GPS,,,,Exact,48.44,16.87,+1:00
+76,POTA-SK,SK-0037,Abrahamsky park ,,,,,,GPS,,,,Exact,48.2429,17.6349,+1:00
+76,POTA-SK,SK-0041,Gabcikovsky park,,,,,,GPS,,,,Exact,47.8929,17.5882,+1:00
+76,POTA-SK,SK-0042,Galantsky park -,,,,,,GPS,,,,Exact,48.1923,17.7365,+1:00
+76,POTA-SK,SK-0044,Hubicky park - P,,,,,,GPS,,,,Exact,48.0976,17.3961,+1:00
+76,POTA-SK,SK-0049,Kosutsky park - ,,,,,,GPS,,,,Exact,48.1713,17.6633,+1:00
+76,POTA-SK,SK-0051,Kralovicovokraci,,,,,,GPS,,,,Exact,47.9912,17.5529,+1:00
+76,POTA-SK,SK-0060,Kosuty - Protect,,,,,,GPS,,,,Exact,48.1685,17.658,+1:00
+76,POTA-SK,SK-0061,Rohovsky park - ,,,,,,GPS,,,,Exact,48.0007,17.4029,+1:00
+76,POTA-SK,SK-0064,Seredsky park - ,,,,,,GPS,,,,Exact,48.2875,17.7441,+1:00
+76,POTA-SK,SK-0065,Sladkovicovsky p,,,,,,GPS,,,,Exact,48.2055,17.6473,+1:00
+76,POTA-SK,SK-0068,Salgociansky par,,,,,,GPS,,,,Exact,48.3317,17.8147,+1:00
+76,POTA-SK,SK-0071,Tomasikovsky par,,,,,,GPS,,,,Exact,48.0864,17.6986,+1:00
+76,POTA-SK,SK-0072,Tonkovsky park -,,,,,,GPS,,,,Exact,48.1163,17.4431,+1:00
+76,POTA-SK,SK-0077,Hlohovecky park ,,,,,,GPS,,,,Exact,48.4206,17.7864,+1:00
+76,POTA-SK,SK-0103,Park Kastiel Dol,,,,,,GPS,,,,Exact,48.4842,17.5464,+1:00
+76,POTA-SK,SK-0104,Park Kupele Pies,,,,,,GPS,,,,Exact,48.5865,17.8436,+1:00
+76,POTA-SK,SK-0117,Park Kastiel Vra,,,,,,GPS,,,,Exact,47.9377,17.6035,+1:00
+76,POTA-SK,SK-0118,Park Kastiel Leh,,,,,,GPS,,,,Exact,48.0481,17.4534,+1:00
+76,POTA-SK,SK-0119,Park Kastiel Hor,,,,,,GPS,,,,Exact,48.4929,17.8742,+1:00
+76,POTA-SK,SK-0120,Park Kastiel Kop,,,,,,GPS,,,,Exact,48.4763,17.807,+1:00
+76,POTA-SK,SK-0121,Park Kastiel Cht,,,,,,GPS,,,,Exact,48.5662,17.6249,+1:00
+76,POTA-SK,SK-0122,Park Kastiel Mor,,,,,,GPS,,,,Exact,48.6049,17.8613,+1:00
+76,POTA-SK,SK-0123,Park Kastiel Rak,,,,,,GPS,,,,Exact,48.562,17.741,+1:00
+76,POTA-SK,SK-0124,Park Kastiel Sok,,,,,,GPS,,,,Exact,48.535,17.8454,+1:00
+76,POTA-SK,SK-0125,Sad Andreja Kmet,,,,,,GPS,,,,Exact,48.5933,17.8374,+1:00
+76,POTA-SK,SK-0126,Park Kastiel Cer,,,,,,GPS,,,,Exact,48.5837,17.3734,+1:00
+76,POTA-SK,SK-0127,Park Kastiel Roh,,,,,,GPS,,,,Exact,48.7264,17.3466,+1:00
+76,POTA-SK,SK-0128,Park Kastiel Mac,,,,,,GPS,,,,Exact,48.6837,17.3679,+1:00
+76,POTA-SK,SK-0129,Park Kupele Smrd,,,,,,GPS,,,,Exact,48.7182,17.3029,+1:00
+76,POTA-SK,SK-0130,Park Kastiel Sob,,,,,,GPS,,,,Exact,48.731,17.4066,+1:00
+76,POTA-SK,SK-0131,Park Kastiel Jab,,,,,,GPS,,,,Exact,48.6123,17.4191,+1:00
+76,POTA-SK,SK-0132,Park Kastiel Bre,,,,,,GPS,,,,Exact,48.3821,17.6835,+1:00
+76,POTA-SK,SK-0133,Park Kastiel Vod,,,,,,GPS,,,,Exact,48.278,17.5562,+1:00
+76,POTA-SK,SK-0134,Park Kastiel Cif,,,,,,GPS,,,,Exact,48.3114,17.5004,+1:00
+76,POTA-SK,SK-0135,Park Kastiel Trs,,,,,,GPS,,,,Exact,48.5292,17.4595,+1:00
+76,POTA-SK,SK-0136,Park Kastiel Gal,,,,,,GPS,,,,Exact,48.4399,17.8876,+1:00
+76,POTA-SK,SK-0001,Tatra National P,,,,,,GPS,,,,Exact,49.1805,19.995,+1:00
+76,POTA-SK,SK-0002,Nizke Tatry Nati,,,,,,GPS,,,,Exact,48.94,19.515,+1:00
+76,POTA-SK,SK-0005,Mala Fatra Natio,,,,,,GPS,,,,Exact,49.187,19.043,+1:00
+76,POTA-SK,SK-0006,Velka Fatra Nati,,,,,,GPS,,,,Exact,48.938,19.083,+1:00
+76,POTA-SK,SK-0019,Horna Orava - Pr,,,,,,GPS,,,,Exact,49.435,19.38,+1:00
+76,POTA-SK,SK-0020,Kysuce - Protect,,,,,,GPS,,,,Exact,49.325,18.43,+1:00
+76,POTA-SK,SK-0024,Strazovske vrchy,,,,,,GPS,,,,Exact,48.961,18.4624,+1:00
+76,POTA-SK,SK-0105,Park Kastiel Mos,,,,,,GPS,,,,Exact,48.91,18.8888,+1:00
+76,POTA-SK,SK-0106,Lesopark Oscadni,,,,,,GPS,,,,Exact,49.423,18.841,+1:00
+76,POTA-SK,SK-0107,Budatinsky park ,,,,,,GPS,,,,Exact,49.2364,18.7345,+1:00
+76,POTA-SK,SK-0108,Park Kupele Turc,,,,,,GPS,,,,Exact,48.8561,18.8601,+1:00
+76,POTA-SK,SK-0178,Zamocky park Byt,,,,,,GPS,,,,Exact,49.2207,18.5587,+1:00
+76,POTA-SK,SK-0179,Abaffyovsky park,,,,,,GPS,,,,Exact,49.2356,19.3059,+1:00
+76,POTA-SK,SK-0180,Park Kastiel Ist,,,,,,GPS,,,,Exact,49.2117,19.2225,+1:00
+76,POTA-SK,SK-0181,Lubyho luka - Na,,,,,,GPS,,,,Exact,49.0458,19.7316,+1:00
+76,POTA-SK,SK-0182,Park Kastiel Lip,,,,,,GPS,,,,Exact,49.0483,19.6817,+1:00
+76,POTA-SK,SK-0186,Park Kastiel Zat,,,,,,GPS,,,,Exact,49.0884,18.9162,+1:00
+76,POTA-SK,SK-0187,Park Kastiel Mit,,,,,,GPS,,,,Exact,49.0999,19.4326,+1:00
+76,POTA-SK,SK-0189,Kupelny park Kor,,,,,,GPS,,,,Exact,48.8887,19.2864,+1:00
+76,POTA-SK,SK-0190,Kupelny park Lub,,,,,,GPS,,,,Exact,49.1179,19.1635,+1:00
+76,POTA-SK,SK-0191,Park Kastiel Tur,,,,,,GPS,,,,Exact,48.8821,18.8532,+1:00
+76,POTA-SK,SK-0192,Park Kastiel Byt,,,,,,GPS,,,,Exact,49.1852,18.7302,+1:00
+76,POTA-SK,SK-0193,Park Kastiel Kra,,,,,,GPS,,,,Exact,49.2119,18.8886,+1:00
+76,POTA-SK,SK-0194,Zamocky park Kun,,,,,,GPS,,,,Exact,49.0845,18.7392,+1:00

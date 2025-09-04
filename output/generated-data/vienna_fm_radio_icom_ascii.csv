@@ -1,0 +1,23 @@
+Group No,Group Name,Name,Sub Name,Repeater Call Sign,Gateway Call Sign,Frequency,Dup,Offset,Mode,TONE,Repeater Tone,RPT1USE,Position,Latitude,Longitude,UTC Offset
+81,Vienna-FM-Radio,ENERGY,Raiffeisen Silo,,,90.8,,0.0,FM,OFF,88.5Hz,NO,Exact,47.957222,16.307222,+1:00
+81,Vienna-FM-Radio,Oe1,Hirschenstein,,,90.6,,0.0,FM,OFF,88.5Hz,NO,Exact,47.345278,16.379167,+1:00
+81,Vienna-FM-Radio,Oe3,Jauerling,,,89.4,,0.0,FM,OFF,88.5Hz,NO,Exact,48.334444,15.338611,+1:00
+81,Vienna-FM-Radio,FM4,Sonnwendstein,,,92.4,,0.0,FM,OFF,88.5Hz,NO,Exact,47.629444,15.858333,+1:00
+81,Vienna-FM-Radio,Kronehit,Landscha,,,88.7,,0.0,FM,OFF,88.5Hz,NO,Exact,47.233611,15.63,+1:00
+81,Vienna-FM-Radio,oe24,Mobilfunkmast,,,90.4,,0.0,FM,OFF,88.5Hz,NO,Exact,48.033056,14.435278,+1:00
+81,Vienna-FM-Radio,LoungeFM,Donaukanal,,,93.6,,0.0,FM,OFF,88.5Hz,NO,Exact,48.214444,16.375833,+1:00
+81,Vienna-FM-Radio,Radieschen,Waehringer Guertel,,,91.3,,0.0,FM,OFF,88.5Hz,NO,Exact,48.227222,16.349167,+1:00
+81,Vienna-FM-Radio,Oe2 W,Himmelhof,,,95.3,,0.0,FM,OFF,88.5Hz,NO,Exact,48.191667,16.255556,+1:00
+81,Vienna-FM-Radio,Ypsilon,Leiser Berge,,,89.0,,0.0,FM,OFF,88.5Hz,NO,Exact,48.558611,16.371389,+1:00
+81,Vienna-FM-Radio,Superfly,Schildberg,,,93.2,,0.0,FM,OFF,88.5Hz,NO,Exact,48.213056,15.711944,+1:00
+81,Vienna-FM-Radio,Campusradio,Schildberg,,,94.4,,0.0,FM,OFF,88.5Hz,NO,Exact,48.213056,15.711944,+1:00
+81,Vienna-FM-Radio,Freies  Freistadt,Aussichtswarte,,,88.4,,0.0,FM,OFF,88.5Hz,NO,Exact,48.441111,14.681389,+1:00
+81,Vienna-FM-Radio,OP,Margarethenwarte,,,89.7,,0.0,FM,OFF,88.5Hz,NO,Exact,47.397222,16.423333,+1:00
+81,Vienna-FM-Radio,VM1,Plabutsch Lueftungsturm Nord,,,90.3,,0.0,FM,OFF,88.5Hz,NO,Exact,47.071944,15.379444,+1:00
+81,Vienna-FM-Radio,Oe2 NOe,Koenigsberg,,,93.1,,0.0,FM,OFF,88.5Hz,NO,Exact,47.58,16.121111,+1:00
+81,Vienna-FM-Radio,Oe2 B,Hirschenstein,,,93.5,,0.0,FM,OFF,88.5Hz,NO,Exact,47.345278,16.379167,+1:00
+81,Vienna-FM-Radio,Arabella Linz,Obergruenbach,,,93.8,,0.0,FM,OFF,88.5Hz,NO,Exact,48.546944,14.537778,+1:00
+81,Vienna-FM-Radio,Gruen Weiss,Burg Oberkapfenberg,,,95.0,,0.0,FM,OFF,88.5Hz,NO,Exact,47.44,15.293611,+1:00
+81,Vienna-FM-Radio,Maria Oesterreich,Reichgrueben,,,95.5,,0.0,FM,OFF,88.5Hz,NO,Exact,48.186111,15.687778,+1:00
+81,Vienna-FM-Radio,Arabella,Hengstberg,,,96.5,,0.0,FM,OFF,88.5Hz,NO,Exact,48.1825,14.999722,+1:00
+81,Vienna-FM-Radio,Stadtradio Krems,Krems,,,97.2,,0.0,FM,OFF,88.5Hz,NO,Exact,48.408,15.61,+1:00

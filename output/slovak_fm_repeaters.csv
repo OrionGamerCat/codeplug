@@ -1,0 +1,29 @@
+Group No,Group Name,Name,Sub Name,Repeater Call Sign,Gateway Call Sign,Frequency,Dup,Offset,Mode,TONE,Repeater Tone,RPT1USE,Position,Latitude,Longitude,UTC Offset
+33,SK-Repeaters,Bratislava - Kamzík,,OM0OVV,,145.6,DUP-,0.6,FM,TONE,77.0Hz,YES,Approximate,48.1875,17.125,+1:00
+33,SK-Repeaters,Stará Ľubovňa - hrad,,OM0OUI,,145.6,DUP-,0.6,FM,OFF,88.5Hz,NO,Approximate,49.3125,20.70833,+1:00
+33,SK-Repeaters,Makovica,,OM0OVT,,145.65,DUP-,0.6,FM,TONE,88.5Hz,YES,Approximate,48.85417,21.45833,+1:00
+33,SK-Repeaters,Rudník - Branisko,,OM0OVY,,145.675,DUP-,0.6,FM,OFF,88.5Hz,NO,Approximate,49.02083,20.875,+1:00
+33,SK-Repeaters,Krížava (Veľká lúka),,OM0OVU,,145.725,DUP-,0.6,FM,TONE,67.0Hz,YES,Approximate,49.10417,18.79167,+1:00
+33,SK-Repeaters,Kráľova hoľa,,OM0OVR,,145.75,DUP-,0.6,FM,TONE,88.5Hz,YES,Approximate,48.89583,20.125,+1:00
+33,SK-Repeaters,Veľká Javorina,,OM0OVQ,,145.7625,DUP-,0.6,FM,TONE,77.0Hz,YES,Approximate,48.85417,17.70833,+1:00
+33,SK-Repeaters,Skalka - Kremnické vrchy,,OM0OVW,,145.775,DUP-,0.6,FM,OFF,88.5Hz,NO,Approximate,48.72917,18.95833,+1:00
+33,SK-Repeaters,Košice,,OM0ODM,,438.225,DUP-,7.6,FM,OFF,88.5Hz,NO,Approximate,48.72917,21.20833,+1:00
+33,SK-Repeaters,Čadca - Drahošanka,,OM0OAC,,438.225,DUP-,7.6,FM,OFF,88.5Hz,NO,Approximate,49.4375,18.79167,+1:00
+33,SK-Repeaters,Kojšovská hoľa,,OM0ODK,,438.25,DUP-,7.6,FM,OFF,88.5Hz,NO,Approximate,48.77083,20.95833,+1:00
+33,SK-Repeaters,Vyšné Hágy,,OM0ODP,,438.275,DUP-,7.6,FM,OFF,88.5Hz,NO,Approximate,49.14583,20.04167,+1:00
+33,SK-Repeaters,Kubínska hoľa,,OM0OAD,,438.55,DUP-,7.6,FM,OFF,88.5Hz,NO,Approximate,49.27083,19.20833,+1:00
+33,SK-Repeaters,Veľká Javorina,,OM0OUJ,,438.875,DUP-,7.6,FM,TONE,77.0Hz,YES,Approximate,48.85417,17.70833,+1:00
+33,SK-Repeaters,Žilina - Hradisko,,OM0OAE,,438.925,DUP-,7.6,FM,OFF,88.5Hz,NO,Approximate,49.22917,18.70833,+1:00
+33,SK-Repeaters,Snina - Sterbňa,,OM0OUW,,438.975,DUP-,7.6,FM,OFF,88.5Hz,NO,Approximate,48.97917,22.20833,+1:00
+33,SK-Repeaters,Stará Ľubovňa - hrad,,OM0OUS,,439.025,DUP-,7.6,FM,OFF,88.5Hz,NO,Approximate,49.3125,20.70833,+1:00
+33,SK-Repeaters,Prešov - Stráž,,OM0OUP,,439.1,DUP-,7.6,FM,TONE,88.5Hz,YES,Approximate,49.02083,21.20833,+1:00
+33,SK-Repeaters,Krížava (Veľá lúka),,OM0OUA,,439.1375,DUP-,7.6,FM,OFF,88.5Hz,NO,Approximate,49.10417,18.79167,+1:00
+33,SK-Repeaters,Sitno,,OM0OUX,,439.15,DUP-,7.6,FM,TONE,77.0Hz,YES,Approximate,48.39583,18.875,+1:00
+33,SK-Repeaters,Galanta,,OM0OUG,,439.175,DUP-,7.6,FM,TONE,88.5Hz,YES,Approximate,48.1875,17.70833,+1:00
+33,SK-Repeaters,Koňuš,,OM0ODT,,439.175,DUP-,7.6,FM,TONE,88.5Hz,YES,Approximate,48.77083,22.29167,+1:00
+33,SK-Repeaters,Chata pod Kľačianskou Magurou,,OM0OUV,,439.2,DUP-,7.6,FM,TONE,100.0Hz,YES,Approximate,49.14583,18.95833,+1:00
+33,SK-Repeaters,Nové Zámky,,OM0OET,,439.225,DUP-,7.6,FM,TONE,77.0Hz,YES,Approximate,47.97917,18.125,+1:00
+33,SK-Repeaters,Banská Bystrica - Vartovka,,OM0OUH,,439.275,DUP-,7.6,FM,OFF,88.5Hz,NO,Approximate,48.72917,19.125,+1:00
+33,SK-Repeaters,Veľký Inovec,,OM0OUN,,439.3,DUP-,7.6,FM,TONE,88.5Hz,YES,Approximate,48.39583,18.54167,+1:00
+33,SK-Repeaters,Bratislava - Kamzík,,OM0OUB,,439.325,DUP-,7.6,FM,TONE,77.0Hz,YES,Approximate,48.1875,17.125,+1:00
+33,SK-Repeaters,Trnava,,OM0OUR,,439.475,DUP-,7.6,FM,TONE,88.5Hz,YES,Approximate,48.35417,17.54167,+1:00

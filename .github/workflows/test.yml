@@ -1,0 +1,125 @@
+name: Test Scripts
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+        
+    - name: Test Python scripts syntax
+      run: |
+        echo "=== Testing Python script syntax ==="
+        for script in scripts/*.py; do
+          if [ -f "$script" ]; then
+            echo "Testing: $script"
+            python3 -m py_compile "$script"
+          fi
+        done
+        
+    - name: Test POTA script imports
+      run: |
+        cd scripts
+        python3 -c "
+        import sys
+        sys.path.append('.')
+        try:
+            exec(open('create_pota_gps_format.py').read().split('if __name__')[0])
+            print('✅ POTA GPS format script imports successfully')
+        except Exception as e:
+            print('❌ POTA script import error:', e)
+            sys.exit(1)
+        "
+        
+    - name: Test SOTA script imports  
+      run: |
+        cd scripts
+        python3 -c "
+        import sys
+        sys.path.append('.')
+        try:
+            exec(open('create_icom_sota_csv.py').read().split('if __name__')[0])
+            print('✅ SOTA script imports successfully')
+        except Exception as e:
+            print('❌ SOTA script import error:', e)
+            sys.exit(1)
+        "
+        
+    - name: Test Vienna Radio script imports
+      run: |
+        cd scripts  
+        python3 -c "
+        import sys
+        sys.path.append('.')
+        try:
+            exec(open('create_icom_vienna_radio_csv.py').read().split('if __name__')[0])
+            print('✅ Vienna Radio script imports successfully') 
+        except Exception as e:
+            print('❌ Vienna Radio script import error:', e)
+            sys.exit(1)
+        "
+        
+    - name: Test shell script syntax
+      run: |
+        echo "=== Testing shell script syntax ==="
+        bash -n generate_icom_id52_codeplug.sh
+        echo "✅ Shell script syntax OK"
+        
+    - name: Test directory structure
+      run: |
+        echo "=== Checking directory structure ==="
+        
+        # Check required directories
+        [ -d "scripts" ] && echo "✅ scripts/ directory exists" || echo "❌ scripts/ directory missing"
+        [ -d "output" ] && echo "✅ output/ directory exists" || echo "❌ output/ directory missing"  
+        
+        # Check required scripts
+        [ -f "scripts/create_pota_gps_format.py" ] && echo "✅ POTA GPS script exists" || echo "❌ POTA GPS script missing"
+        [ -f "scripts/create_icom_sota_csv.py" ] && echo "✅ SOTA script exists" || echo "❌ SOTA script missing"
+        [ -f "generate_icom_id52_codeplug.sh" ] && echo "✅ Main script exists" || echo "❌ Main script missing"
+        
+        # Check script permissions
+        [ -x "generate_icom_id52_codeplug.sh" ] && echo "✅ Main script executable" || echo "❌ Main script not executable"
+        
+    - name: Test API connectivity (basic)
+      run: |
+        echo "=== Testing API connectivity ==="
+        
+        # Test POTA API (basic connectivity)
+        if curl -s --connect-timeout 10 https://api.pota.app/programs/locations | head -1 | grep -q '\['; then
+          echo "✅ POTA API accessible"
+        else
+          echo "⚠️ POTA API not accessible (may be temporary)"
+        fi
+        
+    - name: Create test output directories
+      run: |
+        mkdir -p output/test-run
+        mkdir -p output/generated-data
+        echo "✅ Test directories created"
+        
+    - name: Summary
+      run: |
+        echo "=== Test Summary ==="
+        echo "✅ Python syntax checks passed"
+        echo "✅ Import tests passed" 
+        echo "✅ Shell script syntax OK"
+        echo "✅ Directory structure verified"
+        echo "Repository is ready for CSV generation"

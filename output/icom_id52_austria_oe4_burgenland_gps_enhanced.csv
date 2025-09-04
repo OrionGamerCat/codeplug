@@ -1,0 +1,3 @@
+Group No;Group Name;CH No;Name;SEL;Frequency;Dup;Offset;TS;Mode;SKIP;TONE;Repeater Tone;TSQL Frequency;DTCS Code;DTCS Polarity;DV SQL;DV CSQL Code;Your Call Sign;RPT1 Call Sign;RPT2 Call Sign;Latitude;Longitude;Locator;Landmark
+38;Burgenland;00;Brentenriegel;OFF;145,775000;DUP-;0,600000;12,5kHz;FM;OFF;TONE;97,4Hz;88,5Hz;23;BOTH N;;;;OE4XUB;;47.659535;16.390592;JN87EP;Sieggraben
+38;Burgenland;01;Sonnenberg im Le;OFF;438,725000;DUP-;7,600000;12,5kHz;FM;OFF;TONE;97,4Hz;88,5Hz;23;BOTH N;;;;OE4XSB;;47.875443581357835;16.475900647888768;JN87FV;Hornstein

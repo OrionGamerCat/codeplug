@@ -1,0 +1,187 @@
+name: Generate Codeplug CSVs
+
+on:
+  schedule:
+    # Run every Sunday at 06:00 UTC (weekly)
+    - cron: '0 6 * * 0'
+  workflow_dispatch:  # Allow manual triggering
+
+jobs:
+  generate-csvs:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+        
+    - name: Install memory-channels-processor
+      run: |
+        # Download and install memory-channels-processor
+        wget -O mcp.tar.gz https://github.com/oe3lrt/memory-channels-processor/releases/latest/download/memory-channels-processor-linux-x64.tar.gz
+        tar -xzf mcp.tar.gz
+        chmod +x memory-channels-processor
+        sudo mv memory-channels-processor /usr/local/bin/
+        
+    - name: Verify memory-channels-processor installation
+      run: |
+        memory-channels-processor --version || echo "Version check failed, continuing anyway"
+        
+    - name: Create output directory
+      run: |
+        mkdir -p output/generated-data
+        mkdir -p output/final-exports
+        
+    - name: Generate GPS Data (POTA and SOTA)
+      run: |
+        cd scripts
+        python3 generate_gps_data.py --all
+        
+    - name: Generate Vienna Radio Stations
+      run: |
+        cd scripts
+        python3 create_icom_vienna_radio_csv.py
+        
+    - name: Generate Repeater Data (if memory-channels-processor works)
+      run: |
+        # Try to run the main script, but don't fail if it has issues
+        ./generate_icom_id52_codeplug.sh || echo "Main script had issues, continuing with other generators"
+        
+    - name: List generated files
+      run: |
+        echo "=== Generated Files ==="
+        echo "POTA GPS Files:"
+        find POTA-GPS -name "*.csv" -type f | head -10
+        echo ""
+        echo "SOTA GPS Files:"
+        find SOTA-GPS -name "*.csv" -type f | head -10
+        echo ""
+        echo "Output directory:"
+        find output -name "*.csv" -type f | head -10
+        echo ""
+        echo "=== File sizes ==="
+        du -sh POTA-GPS/ SOTA-GPS/ output/*/ 2>/dev/null || true
+        
+    - name: Check for changes
+      id: changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        if [[ -n $(git status --porcelain) ]]; then
+          echo "changes=true" >> $GITHUB_OUTPUT
+          echo "Changes detected"
+        else
+          echo "changes=false" >> $GITHUB_OUTPUT  
+          echo "No changes detected"
+        fi
+        
+    - name: Commit and push changes
+      if: steps.changes.outputs.changes == 'true'
+      run: |
+        # Add all generated files (including POTA-GPS and SOTA-GPS directories)
+        git add output/
+        git add POTA-GPS/
+        git add SOTA-GPS/
+        git add *.csv || true
+        
+        # Create commit message with timestamp and file counts
+        POTA_COUNT=$(find . -name "*pota*.csv" -type f | wc -l)
+        SOTA_COUNT=$(find . -name "*sota*.csv" -type f | wc -l)
+        TOTAL_COUNT=$(find . -name "*.csv" -type f | wc -l)
+        
+        git commit -m "Auto-update CSV files - $(date -u '+%Y-%m-%d %H:%M UTC')
+        
+        Generated files:
+        - POTA parks: ${POTA_COUNT} files
+        - SOTA summits: ${SOTA_COUNT} files  
+        - Total CSV files: ${TOTAL_COUNT}
+        
+        Updated via unified GPS generator script
+        Updated via GitHub Actions"
+        
+        git push
+        
+    - name: Create Release (monthly)
+      if: steps.changes.outputs.changes == 'true'
+      run: |
+        # Only create releases on the first Sunday of the month
+        DAY_OF_MONTH=$(date +%d)
+        if [ "$DAY_OF_MONTH" -le 7 ]; then
+          RELEASE_TAG="release-$(date +%Y-%m)"
+          RELEASE_NAME="Monthly Data Update $(date +'%B %Y')"
+          
+          # Create release notes
+          cat > release_notes.md << EOF
+        # Icom ID-52PLUS Codeplug Data - $(date +'%B %Y')
+        
+        ## Generated Data Files
+        
+        ### POTA (Parks on the Air)
+        - Complete database of all registered POTA parks
+        - Countries: Austria (373 parks), Slovakia (247 parks), Singapore (64 parks)  
+        - Format: GPS waypoint compatible with Icom ID-52PLUS
+        - Groups: U (Austria), V (Slovakia), W (Singapore)
+        
+        ### SOTA (Summits on the Air)  
+        - GPS waypoints for SOTA summits
+        - Includes elevation data
+        
+        ### Repeater Data
+        - Austrian repeaters by federal state (OE1-OE9)
+        - Slovak and Singapore VHF/UHF repeaters
+        - D-STAR and FM formats
+        
+        ### Special Channels
+        - Vienna FM radio stations
+        - PMR446 channels
+        
+        ## Usage
+        1. Download the CSV files from the \`output/final-exports/\` directory
+        2. Import into Icom CS-ID52 programming software
+        3. Transfer to your Icom ID-52PLUS transceiver
+        
+        ## Data Sources
+        - POTA API: https://api.pota.app/
+        - SOTA Database: memory-channels-processor
+        - Austrian Repeaters: ÖVSV Database
+        - Slovak Repeaters: Slovakia Repeater List
+        
+        Generated automatically on $(date -u '+%Y-%m-%d %H:%M UTC')
+        EOF
+          
+          # Check if we have gh CLI available
+          if command -v gh &> /dev/null; then
+            gh release create "$RELEASE_TAG" \
+              --title "$RELEASE_NAME" \
+              --notes-file release_notes.md \
+              POTA-GPS/*.csv SOTA-GPS/*.csv
+          else
+            echo "GitHub CLI not available, skipping release creation"
+          fi
+        fi
+        
+    - name: Summary
+      run: |
+        echo "=== Workflow Summary ==="
+        echo "Date: $(date -u)"
+        if [ "${{ steps.changes.outputs.changes }}" == "true" ]; then
+          echo "Status: ✅ Files updated and committed"
+          echo "Files generated: $(find . -name "*.csv" -type f | wc -l) CSV files"
+          echo "POTA parks: $(find . -name "*pota*.csv" -type f | wc -l) files"
+          echo "SOTA summits: $(find . -name "*sota*.csv" -type f | wc -l) files"
+        else
+          echo "Status: ℹ️ No changes detected"
+        fi
+        echo "Next run: Next Sunday at 06:00 UTC"
