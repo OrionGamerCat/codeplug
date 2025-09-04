@@ -1,7 +1,7 @@
 # Icom ID-52PLUS Codeplug Generator Suite
 
-[![Generate CSV Files](https://github.com/username/memoryicomscript/actions/workflows/generate-csvs.yml/badge.svg)](https://github.com/username/memoryicomscript/actions/workflows/generate-csvs.yml)
-[![Test Scripts](https://github.com/username/memoryicomscript/actions/workflows/test.yml/badge.svg)](https://github.com/username/memoryicomscript/actions/workflows/test.yml)
+[![Generate CSV Files](https://github.com/OrionGamerCat/codeplug/actions/workflows/generate-csvs.yml/badge.svg)](https://github.com/OrionGamerCat/codeplug/actions/workflows/generate-csvs.yml)
+[![Test Scripts](https://github.com/OrionGamerCat/codeplug/actions/workflows/test.yml/badge.svg)](https://github.com/OrionGamerCat/codeplug/actions/workflows/test.yml)
 
 A comprehensive collection of tools for generating codeplugs, GPS waypoints, and data files for the Icom ID-52PLUS transceiver. This suite provides automated data collection and formatting for amateur radio repeaters, POTA parks, SOTA summits, and more.
 
@@ -45,20 +45,26 @@ A comprehensive collection of tools for generating codeplugs, GPS waypoints, and
 ## Repository Structure
 
 ```
-memoryicomscript/
+codeplug/
 ├── scripts/                           # Python generators and utilities
-│   ├── create_pota_gps_format.py      # POTA GPS format generator (main)
+│   ├── generate_gps_data.py           # Unified GPS generator (POTA + SOTA)
+│   ├── create_pota_gps_format.py      # POTA GPS format generator (legacy)
 │   ├── create_pota_parks_api.py       # POTA API integration
-│   ├── create_icom_sota_csv.py        # SOTA summits GPS waypoints
+│   ├── create_sota_gps_format.py      # SOTA GPS format generator (legacy)
 │   ├── create_icom_vienna_radio_csv.py # Vienna FM radio stations
 │   └── ... (additional utility scripts)
-├── examples/                          # Example CSV files
-│   ├── gpsexample.csv                 # GPS format template
-│   ├── fmexample.csv                  # FM repeater template  
-│   └── rptexample.csv                 # D-STAR repeater template
+├── POTA-GPS/                          # Generated POTA parks GPS files
+│   ├── Austria/                       # Austrian parks by region
+│   ├── Slovakia/                      # Slovak parks by region
+│   ├── Singapore/                     # Singapore parks by district
+│   └── pota_*.csv                     # Country and master files
+├── SOTA-GPS/                          # Generated SOTA summits GPS files
+│   ├── Austria/                       # Austrian summits
+│   ├── Slovakia/                      # Slovak summits
+│   ├── Singapore/                     # Singapore summits
+│   └── sota_*.csv                     # Country and master files
 ├── output/
-│   ├── final-exports/                 # Ready-to-use files
-│   │   └── POTA-GPS/                  # Complete POTA GPS files
+│   ├── final-exports/                 # Ready-to-use files (legacy)
 │   ├── generated-data/                # Intermediate processing files
 │   └── ID-52/                         # Organized SD card structure
 └── generate_icom_id52_codeplug.sh     # Main generation script
@@ -70,18 +76,22 @@ memoryicomscript/
 1. **memory-channels-processor** installed and in PATH
    - Download: https://oe3lrt.gitlab.io/memory-channels-processor/
 2. **curl** for API access
-3. **Python 3** for advanced generators
+3. **Python 3** with requests module for POTA API access
 
 ### Basic Usage
 ```bash
 # Generate complete codeplug
 ./generate_icom_id52_codeplug.sh
 
-# Generate POTA parks (recommended)
-python3 scripts/create_pota_gps_format.py
+# Generate GPS data (recommended - unified script)
+python3 scripts/generate_gps_data.py --all
 
-# Generate SOTA summits
-python3 scripts/create_icom_sota_csv.py
+# Generate specific datasets
+python3 scripts/generate_gps_data.py --pota    # POTA parks only
+python3 scripts/generate_gps_data.py --sota    # SOTA summits only
+
+# Generate Vienna radio stations
+python3 scripts/create_icom_vienna_radio_csv.py
 ```
 
 ## Generated Files Overview
@@ -89,7 +99,7 @@ python3 scripts/create_icom_sota_csv.py
 ### POTA Parks (GPS Format)
 Perfect for POTA hunting and activations:
 ```
-output/final-exports/POTA-GPS/
+POTA-GPS/
 ├── pota_at_all.csv        # All Austria parks (Group U)
 ├── pota_sk_all.csv        # All Slovakia parks (Group V)  
 ├── pota_sg_all.csv        # All Singapore parks (Group W)
@@ -106,6 +116,22 @@ output/final-exports/POTA-GPS/
     └── ... (all 5 Singapore districts)
 ```
 
+### SOTA Summits (GPS Format)
+Perfect for SOTA activations and navigation:
+```
+SOTA-GPS/
+├── sota_aut_all.csv       # All Austria summits (Group X)
+├── sota_svk_all.csv       # All Slovakia summits (Group Y)
+├── sota_sgp_all.csv       # All Singapore summits (Group Z)
+├── sota_all_countries.csv # Master combined file
+├── Austria/
+│   └── sota_aut.csv       # Austria summits
+├── Slovakia/
+│   └── sota_svk.csv       # Slovakia summits
+└── Singapore/
+    └── sota_sgp.csv       # Singapore summits
+```
+
 ### Repeater Files
 - **Austrian**: 9 files by federal state (Groups 35-43)
 - **Slovak**: 2m/70cm repeaters (Group 44)
@@ -113,7 +139,8 @@ output/final-exports/POTA-GPS/
 - **Japanese**: Official Icom data integration (Group 46)
 
 ### GPS Waypoints
-- **SOTA Summits**: Groups 50-52
+- **POTA Parks**: Groups U (Austria), V (Slovakia), W (Singapore)
+- **SOTA Summits**: Groups X (Austria), Y (Slovakia), Z (Singapore)
 - **Vienna Radio**: Group 81
 - **PMR Channels**: Complete PMR446 list
 
@@ -146,11 +173,12 @@ The POTA generator uses official POTA API endpoints:
 | 44 | Repeaters | Slovakia 2m/70cm | ~50 |
 | 45 | Repeaters | Singapore VHF/UHF | ~5 |
 | 46 | Repeaters | Japan (official data) | ~1000 |
-| 50-52 | GPS | SOTA summits | ~300 |
-| 75-77 | GPS | POTA parks (old format) | 684 |
 | U | GPS | POTA Austria parks | 373 |
 | V | GPS | POTA Slovakia parks | 247 |  
 | W | GPS | POTA Singapore parks | 64 |
+| X | GPS | SOTA Austria summits | 2,171 |
+| Y | GPS | SOTA Slovakia summits | 370 |
+| Z | GPS | SOTA Singapore summits | 1 |
 | 81 | Radio | Vienna FM stations | 50 |
 
 ## Import Instructions
@@ -162,10 +190,16 @@ The POTA generator uses official POTA API endpoints:
 4. Repeaters organized by groups for easy access
 
 ### Recommended Import Order:
-1. `pota_all_countries.csv` - Complete POTA database
-2. Country-specific repeater files
-3. SOTA summits for your operating area
-4. PMR channels and local radio stations
+1. **GPS Data**: 
+   - `POTA-GPS/pota_all_countries.csv` - Complete POTA database
+   - `SOTA-GPS/sota_all_countries.csv` - Complete SOTA database
+2. **Repeater Data**: Country-specific repeater files
+3. **Specialized**: PMR channels and Vienna radio stations
+
+### File Locations:
+- **Latest GPS Files**: Located in `POTA-GPS/` and `SOTA-GPS/` directories
+- **Legacy Files**: Available in `output/final-exports/` (maintained for compatibility)
+- **Repeater Files**: Available in `output/ID-52/` directory structure
 
 ## Data Sources
 
