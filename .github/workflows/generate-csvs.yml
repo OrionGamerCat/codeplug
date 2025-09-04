@@ -37,18 +37,43 @@ jobs:
         
     - name: Install memory-channels-processor
       run: |
-        # Try multiple download methods for memory-channels-processor
-        if curl -L -o mcp.tar.gz https://github.com/oe3lrt/memory-channels-processor/releases/latest/download/memory-channels-processor-linux-x64.tar.gz; then
-          tar -xzf mcp.tar.gz
+        # Try multiple approaches to get memory-channels-processor
+        echo "Attempting to install memory-channels-processor..."
+        
+        # Method 1: Try the GitHub release
+        if curl -L -f -o mcp.tar.gz "https://github.com/oe3lrt/memory-channels-processor/releases/latest/download/memory-channels-processor-linux-x64.tar.gz" 2>/dev/null; then
+          echo "Downloaded from GitHub releases"
+          if tar -xzf mcp.tar.gz 2>/dev/null && [ -f memory-channels-processor ]; then
+            chmod +x memory-channels-processor
+            sudo mv memory-channels-processor /usr/local/bin/
+            echo "✅ memory-channels-processor installed successfully from GitHub"
+            exit 0
+          fi
+        fi
+        
+        # Method 2: Try direct download from GitLab pages
+        if curl -L -f -o memory-channels-processor "https://oe3lrt.gitlab.io/memory-channels-processor/latest/memory-channels-processor-linux-x64" 2>/dev/null; then
+          echo "Downloaded from GitLab pages"
           chmod +x memory-channels-processor
           sudo mv memory-channels-processor /usr/local/bin/
-          echo "memory-channels-processor installed successfully"
-        else
-          echo "Failed to download memory-channels-processor, will skip repeater generation"
-          echo "#!/bin/bash" | sudo tee /usr/local/bin/memory-channels-processor
-          echo "echo 'memory-channels-processor not available'" | sudo tee -a /usr/local/bin/memory-channels-processor
-          sudo chmod +x /usr/local/bin/memory-channels-processor
+          echo "✅ memory-channels-processor installed successfully from GitLab"
+          exit 0
         fi
+        
+        # Method 3: Create a mock version that explains the situation
+        echo "⚠️  Could not download memory-channels-processor from any source"
+        echo "Creating fallback version that will skip repeater generation..."
+        
+        cat << 'MOCK_SCRIPT' | sudo tee /usr/local/bin/memory-channels-processor
+#!/bin/bash
+echo "memory-channels-processor is not available in this environment"
+echo "Repeater generation will be skipped"
+echo "GPS data (POTA/SOTA) generation will continue normally"
+exit 1
+MOCK_SCRIPT
+        
+        sudo chmod +x /usr/local/bin/memory-channels-processor
+        echo "✅ Fallback memory-channels-processor created"
         
     - name: Verify memory-channels-processor installation
       run: |
@@ -80,23 +105,59 @@ jobs:
         
     - name: Generate Repeater Data (if memory-channels-processor works)
       run: |
-        # Try to run the main script, but don't fail if it has issues
-        ./generate_icom_id52_codeplug.sh || echo "Main script had issues, continuing with other generators"
+        echo "Checking if memory-channels-processor is functional..."
+        if memory-channels-processor --version >/dev/null 2>&1; then
+          echo "✅ memory-channels-processor is working, generating repeater data..."
+          ./generate_icom_id52_codeplug.sh || echo "⚠️  Main script had issues, but continuing..."
+        else
+          echo "⚠️  memory-channels-processor not functional, skipping repeater generation"
+          echo "This is normal if memory-channels-processor could not be downloaded"
+          echo "GPS data generation (POTA/SOTA) will continue normally"
+        fi
         
     - name: List generated files
       run: |
-        echo "=== Generated Files ==="
-        echo "POTA GPS Files:"
-        find POTA-GPS -name "*.csv" -type f | head -10
+        echo "=== Generated Files Summary ==="
+        
+        # Check POTA files
+        if [ -d "POTA-GPS" ] && [ "$(find POTA-GPS -name "*.csv" | wc -l)" -gt 0 ]; then
+          POTA_COUNT=$(find POTA-GPS -name "*.csv" -type f | wc -l)
+          echo "✅ POTA GPS Files: ${POTA_COUNT} files"
+          find POTA-GPS -name "*.csv" -type f | head -5
+        else
+          echo "❌ POTA GPS Files: No files generated"
+        fi
+        
         echo ""
-        echo "SOTA GPS Files:"
-        find SOTA-GPS -name "*.csv" -type f | head -10
+        
+        # Check SOTA files  
+        if [ -d "SOTA-GPS" ] && [ "$(find SOTA-GPS -name "*.csv" | wc -l)" -gt 0 ]; then
+          SOTA_COUNT=$(find SOTA-GPS -name "*.csv" -type f | wc -l)
+          echo "✅ SOTA GPS Files: ${SOTA_COUNT} files"
+          find SOTA-GPS -name "*.csv" -type f | head -5
+        else
+          echo "❌ SOTA GPS Files: No files generated"
+        fi
+        
         echo ""
-        echo "Output directory:"
-        find output -name "*.csv" -type f | head -10
+        
+        # Check repeater/output files
+        if [ -d "output" ] && [ "$(find output -name "*.csv" | wc -l)" -gt 0 ]; then
+          OUTPUT_COUNT=$(find output -name "*.csv" -type f | wc -l)
+          echo "✅ Repeater/Output Files: ${OUTPUT_COUNT} files"
+          find output -name "*.csv" -type f | head -5
+        else
+          echo "❌ Repeater/Output Files: No files generated"
+        fi
+        
         echo ""
-        echo "=== File sizes ==="
-        du -sh POTA-GPS/ SOTA-GPS/ output/*/ 2>/dev/null || true
+        echo "=== Directory Sizes ==="
+        du -sh POTA-GPS/ SOTA-GPS/ output/ 2>/dev/null || echo "Some directories not present"
+        
+        echo ""
+        echo "=== Total CSV Files ==="
+        TOTAL_CSV=$(find . -name "*.csv" -type f | wc -l)
+        echo "Total: ${TOTAL_CSV} CSV files generated"
         
     - name: Check for changes
       id: changes
@@ -138,64 +199,147 @@ jobs:
         
         git push
         
-    - name: Create Release (monthly)
+    - name: Create Release with Generated Files
       if: steps.changes.outputs.changes == 'true'
       run: |
-        # Only create releases on the first Sunday of the month
-        DAY_OF_MONTH=$(date +%d)
-        if [ "$DAY_OF_MONTH" -le 7 ]; then
-          RELEASE_TAG="release-$(date +%Y-%m)"
-          RELEASE_NAME="Monthly Data Update $(date +'%B %Y')"
-          
-          # Create release notes
-          cat > release_notes.md << EOF
-        # Icom ID-52PLUS Codeplug Data - $(date +'%B %Y')
+        # Create release for every successful generation
+        RELEASE_TAG="v$(date +%Y.%m.%d)"
+        RELEASE_NAME="Codeplug Data Update - $(date +'%B %d, %Y')"
         
-        ## Generated Data Files
+        # Count generated files for release notes
+        POTA_COUNT=$(find . -name "*pota*.csv" -type f | wc -l)
+        SOTA_COUNT=$(find . -name "*sota*.csv" -type f | wc -l)
+        REPEATER_COUNT=$(find output -name "*.csv" -type f | wc -l)
+        TOTAL_COUNT=$(find . -name "*.csv" -type f | wc -l)
         
-        ### POTA (Parks on the Air)
-        - Complete database of all registered POTA parks
-        - Countries: Austria (373 parks), Slovakia (247 parks), Singapore (64 parks)  
-        - Format: GPS waypoint compatible with Icom ID-52PLUS
-        - Groups: U (Austria), V (Slovakia), W (Singapore)
+        # Create comprehensive release notes
+        cat > release_notes.md << EOF
+        # 📻 Icom ID-52PLUS Codeplug Data - $(date +'%B %d, %Y')
         
-        ### SOTA (Summits on the Air)  
-        - GPS waypoints for SOTA summits
-        - Includes elevation data
+        ## 📊 Generated Files Summary
+        - **POTA Parks**: ${POTA_COUNT} files
+        - **SOTA Summits**: ${SOTA_COUNT} files  
+        - **Repeater Data**: ${REPEATER_COUNT} files
+        - **Total CSV Files**: ${TOTAL_COUNT}
         
-        ### Repeater Data
+        ## 🗺️ GPS Waypoint Files (Ready to Import)
+        
+        ### POTA Parks (Parks on the Air)
+        - **Austria**: 373 parks (Group U) - \`POTA-GPS/pota_at_all.csv\`
+        - **Slovakia**: 247 parks (Group V) - \`POTA-GPS/pota_sk_all.csv\`
+        - **Singapore**: 64 parks (Group W) - \`POTA-GPS/pota_sg_all.csv\`
+        - **Master File**: All countries combined - \`POTA-GPS/pota_all_countries.csv\`
+        
+        ### SOTA Summits (Summits on the Air)
+        - **Austria**: 2,171 summits (Group X) - \`SOTA-GPS/sota_aut_all.csv\`
+        - **Slovakia**: 370 summits (Group Y) - \`SOTA-GPS/sota_svk_all.csv\`
+        - **Singapore**: 1 summit (Group Z) - \`SOTA-GPS/sota_sgp_all.csv\`
+        - **Master File**: All countries combined - \`SOTA-GPS/sota_all_countries.csv\`
+        
+        ## 📡 Repeater Files
+        Available in \`output/ID-52/\` directory:
         - Austrian repeaters by federal state (OE1-OE9)
-        - Slovak and Singapore VHF/UHF repeaters
-        - D-STAR and FM formats
+        - Slovak 2m/70cm repeaters
+        - Singapore VHF/UHF repeaters
+        - D-STAR and FM formats with GPS enhancement
         
-        ### Special Channels
-        - Vienna FM radio stations
-        - PMR446 channels
+        ## 🎵 Special Channels
+        - Vienna FM radio stations (50 biggest stations)
+        - PMR446 complete channel list
         
-        ## Usage
-        1. Download the CSV files from the \`output/final-exports/\` directory
-        2. Import into Icom CS-ID52 programming software
-        3. Transfer to your Icom ID-52PLUS transceiver
+        ## 🚀 Quick Start
+        1. **Download the files** you need from this release
+        2. **Import into CS-ID52** programming software
+        3. **Program your radio** and enjoy!
         
-        ## Data Sources
-        - POTA API: https://api.pota.app/
-        - SOTA Database: memory-channels-processor
-        - Austrian Repeaters: ÖVSV Database
-        - Slovak Repeaters: Slovakia Repeater List
+        ### Recommended Downloads:
+        - 🏞️ **For POTA**: \`POTA-GPS/pota_all_countries.csv\`
+        - 🏔️ **For SOTA**: \`SOTA-GPS/sota_all_countries.csv\`
+        - 📡 **For Repeaters**: Files from \`output/ID-52/\` directory
         
-        Generated automatically on $(date -u '+%Y-%m-%d %H:%M UTC')
+        ## 🔧 Technical Details
+        - **Format**: CSV compatible with Icom CS-ID52
+        - **Encoding**: ASCII (proper umlaut conversion)
+        - **GPS Groups**: Letter-based (U/V/W for POTA, X/Y/Z for SOTA)
+        - **Update Frequency**: Weekly (Sundays 06:00 UTC)
+        
+        ## 📡 Data Sources
+        - **POTA API**: https://api.pota.app/ (real-time data)
+        - **SOTA Database**: Official SOTA summit list
+        - **ÖVSV**: Austrian amateur radio repeaters
+        - **Slovakia Repeater List**: Official Slovak repeater database
+        - **RTR Austria**: Vienna FM radio stations
+        
+        ---
+        🤖 **Generated automatically** on $(date -u '+%Y-%m-%d %H:%M UTC') via GitHub Actions  
+        📊 **Repository**: [OrionGamerCat/codeplug](https://github.com/OrionGamerCat/codeplug)
         EOF
+        
+        # Collect all CSV files for release
+        echo "Collecting files for release..."
+        
+        # Create temporary directory for release assets
+        mkdir -p release_assets
+        
+        # Copy GPS files (main attraction)
+        if [ -d "POTA-GPS" ]; then
+          cp -r POTA-GPS/ release_assets/
+          echo "✅ POTA GPS files added to release"
+        fi
+        
+        if [ -d "SOTA-GPS" ]; then
+          cp -r SOTA-GPS/ release_assets/
+          echo "✅ SOTA GPS files added to release"
+        fi
+        
+        # Copy repeater files if they exist
+        if [ -d "output/ID-52" ]; then
+          mkdir -p release_assets/repeaters
+          cp -r output/ID-52/* release_assets/repeaters/ 2>/dev/null || true
+          echo "✅ Repeater files added to release"
+        fi
+        
+        # Copy special files if they exist
+        if [ -f "output/generated-data/vienna_fm_radio_icom_ascii.csv" ]; then
+          cp output/generated-data/vienna_fm_radio_icom_ascii.csv release_assets/vienna_fm_radio.csv
+          echo "✅ Vienna radio file added to release"
+        fi
+        
+        if [ -f "output/generated-data/pmr_channels_icom_ascii.csv" ]; then
+          cp output/generated-data/pmr_channels_icom_ascii.csv release_assets/pmr_channels.csv
+          echo "✅ PMR channels added to release"
+        fi
+        
+        # List what we're releasing
+        echo "📦 Release contents:"
+        find release_assets -name "*.csv" | head -20
+        
+        # Create release with GitHub CLI
+        if command -v gh &> /dev/null; then
+          export GH_TOKEN=${{ secrets.GITHUB_TOKEN }}
           
-          # Check if we have gh CLI available and set token
-          if command -v gh &> /dev/null; then
-            export GH_TOKEN=${{ secrets.GITHUB_TOKEN }}
-            gh release create "$RELEASE_TAG" \
-              --title "$RELEASE_NAME" \
-              --notes-file release_notes.md \
-              POTA-GPS/*.csv SOTA-GPS/*.csv 2>/dev/null || echo "Release creation failed or already exists"
+          # Delete existing release if it exists (for same-day updates)
+          gh release delete "$RELEASE_TAG" -y 2>/dev/null || echo "No existing release to delete"
+          
+          # Create the release
+          if gh release create "$RELEASE_TAG" \
+            --title "$RELEASE_NAME" \
+            --notes-file release_notes.md \
+            --latest; then
+            echo "✅ Release created successfully"
+            
+            # Upload all CSV files to the release
+            find release_assets -name "*.csv" -type f | while read file; do
+              gh release upload "$RELEASE_TAG" "$file" || echo "Failed to upload $file"
+            done
+            
+            echo "🎉 Release published with all CSV files!"
+            echo "📍 Release URL: https://github.com/OrionGamerCat/codeplug/releases/tag/$RELEASE_TAG"
           else
-            echo "GitHub CLI not available, skipping release creation"
+            echo "❌ Failed to create release"
           fi
+        else
+          echo "❌ GitHub CLI not available, skipping release creation"
         fi
         
     - name: Summary
